@@ -42,7 +42,6 @@ set guioptions-=T
 set antialias
 set showtabline=2
 set visualbell t_vb=
-set columns=100
 
 " TODO: gvimrcに持っていく
 " Color Scheme
@@ -199,7 +198,13 @@ au FileType unite inoremap <silent> <buffer> <expr> <C-J> unite#do_action('split
 " ウィンドウを縦に分割して開く
 au FileType unite nnoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
 au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
-" ESCキーを2回押すと終了する
+""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""
+" NERDTreeの設定
+""""""""""""""""""""""""""""""
+" Ctrl-p でツリーの表示切り換え
+map <C-p> :NERDTreeToggle<CR>
 """"""""""""""""""""""""""""""
 
 " http://inari.hatenablog.com/entry/2014/05/05/231307
