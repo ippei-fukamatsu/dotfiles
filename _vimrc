@@ -51,8 +51,6 @@ set background=light
 colorscheme darkblue
 
 
-
-
 " 挙動を vi 互換ではなく、Vim のデフォルト設定にする
 set nocompatible
 " 一旦ファイルタイプ関連を無効化する
@@ -119,13 +117,13 @@ NeoBundleCheck
 " 各種オプションの設定
 """"""""""""""""""""""""""""""
 " タグファイルの指定(でもタグジャンプは使ったことがない)
-set tags=~/.tags
+"set tags=~/.tags
 " スワップファイルは使わない(ときどき面倒な警告が出るだけで役に立ったことがない)
 set noswapfile
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
 " コマンドラインに使われる画面上の行数
-set cmdheight=2
+"set cmdheight=2
 " エディタウィンドウの末尾から2行目にステータスラインを常時表示させる
 set laststatus=2
 " ステータス行に表示させる情報の指定(どこからかコピペしたので細かい意味はわかっていない)
@@ -180,9 +178,6 @@ colorscheme desert
 highlight LineNr ctermfg=darkyellow
 """"""""""""""""""""""""""""""
 
-" vimを立ち上げたときに、自動的にvim-indent-guidesをオンにする
-let g:indent_guides_enable_on_vim_startup = 1
-
 " grep検索の実行後にQuickFix Listを表示する
 autocmd QuickFixCmdPost *grep* cwindow
 
@@ -190,8 +185,6 @@ autocmd QuickFixCmdPost *grep* cwindow
 """"""""""""""""""""""""""""""
 " Unit.vimの設定
 """"""""""""""""""""""""""""""
-" 入力モードで開始する
-let g:unite_enable_start_insert=1
 " バッファ一覧
 noremap <C-P> :Unite buffer<CR>
 " ファイル一覧
@@ -207,8 +200,6 @@ au FileType unite inoremap <silent> <buffer> <expr> <C-J> unite#do_action('split
 au FileType unite nnoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
 au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
 " ESCキーを2回押すと終了する
-au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
-au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 """"""""""""""""""""""""""""""
 
 " http://inari.hatenablog.com/entry/2014/05/05/231307
