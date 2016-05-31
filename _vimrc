@@ -43,7 +43,6 @@ set antialias
 set showtabline=2
 set visualbell t_vb=
 set columns=100
-set lines=80
 
 " Color Scheme
 syntax enable
