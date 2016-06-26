@@ -1,0 +1,4 @@
+" Color Scheme
+syntax enable
+set background=light
+colorscheme darkblue
