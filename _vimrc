@@ -28,7 +28,7 @@ set shiftwidth=4
 set smartindent
 
 " un~ファイルを作らない
-:set noundofile
+set noundofile
 
 " ESCを2回入力で検索時のハイライトを解除
 nnoremap <ESC><ESC> :nohlsearch<CR>
