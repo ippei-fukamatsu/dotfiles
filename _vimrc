@@ -1,59 +1,3 @@
-" vi基本設定
-
-" 行番号の表示
-set number
-
-" vi互換をオフ
-set nocompatible
-
-" 新しい行のインデントを現在行と同じにする
-set autoindent
-
-" インクリメンタルサーチ設定
-set incsearch
-
-" 閉じ括弧が入力されたとき、対応する括弧を表示する
-set showmatch
-
-" 新しい行を作ったときに高度な自動インデントを行う
-set smartindent
-
-" タブ移動幅
-set tabstop=4
-
-" シフト移動幅
-set shiftwidth=4
-
-" 行頭の余白内でTabを打ち込むと、'shiftwidth'の数だけインデントする
-set smartindent
-
-" un~ファイルを作らない
-set noundofile
-
-" ESCを2回入力で検索時のハイライトを解除
-nnoremap <ESC><ESC> :nohlsearch<CR>
-
-" タブをスペースに
-set expandtab
-
-set nobackup
-set imdisable
-set guioptions-=T
-set antialias
-set showtabline=2
-set visualbell t_vb=
-
-" TODO: gvimrcに持っていく
-" Color Scheme
-syntax enable
-set background=light
-colorscheme darkblue
-
-
-" 挙動を vi 互換ではなく、Vim のデフォルト設定にする
-set nocompatible
-" 一旦ファイルタイプ関連を無効化する
-filetype off
 
 """"""""""""""""""""""""""""""
 " プラグインのセットアップ
@@ -99,9 +43,10 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " less用のsyntaxハイライト
 NeoBundle 'KohPoll/vim-less'
+" theme
+NeoBundle 'dracula/vim'
 
 " 余談: neocompleteは合わなかった。ctrl+pで補完するのが便利
-
 call neobundle#end()
 
 " Required:
@@ -141,8 +86,6 @@ set browsedir=buffer
 set smartcase
 " 検索結果をハイライト表示する
 set hlsearch
-" 暗い背景色に合わせた配色にする
-set background=dark
 " タブ入力を複数の空白入力に置き換える
 set expandtab
 " 検索ワードの最初の文字を入力した時点で検索を開始する
@@ -171,10 +114,32 @@ set smarttab
 set whichwrap=b,s,h,l,<,>,[,]
 " 構文毎に文字色を変化させる
 syntax on
-" カラースキーマの指定
-colorscheme desert
-" 行番号の色
-highlight LineNr ctermfg=darkyellow
+" vi互換をオフ
+set nocompatible
+" インクリメンタルサーチ設定
+set incsearch
+" 行頭の余白内でTabを打ち込むと、'shiftwidth'の数だけインデントする
+set smartindent
+" un~ファイルを作らない
+set noundofile
+" ESCを2回入力で検索時のハイライトを解除
+nnoremap <ESC><ESC> :nohlsearch<CR>
+" タブをスペースに
+set expandtab
+" 貼り付けモード
+set paste
+
+set nobackup
+set imdisable
+set guioptions-=T
+set antialias
+set showtabline=2
+set visualbell t_vb=
+" 挙動を vi 互換ではなく、Vim のデフォルト設定にする
+set nocompatible
+" 一旦ファイルタイプ関連を無効化する
+filetype off
+colorscheme dracula
 """"""""""""""""""""""""""""""
 
 " grep検索の実行後にQuickFix Listを表示する
