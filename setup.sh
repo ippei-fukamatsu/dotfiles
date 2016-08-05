@@ -1,11 +1,25 @@
-cd ~;
+# update submodule
+cd ~/.dotfiles;
+git submodule update --init;
 
+cd ~;
 ln -s ~/.dotfiles/_vimrc .vimrc;
 ln -s ~/.dotfiles/_gvimrc .gvimrc;
 ln -s ~/.dotfiles/_bashrc .bashrc;
 ln -s ~/.dotfiles/_bash_profile .bash_profile;
+ln -s ~/.dotfiles/_zshrc .zshrc;
+
+# install zsh
+brew install zsh
+
+# install oh-my-zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+# set zsh theme to dracula
+ln -s ~/.dotfiles/dracula-zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
 
 source .bash_profile;
+source .zshrc;
 
 # install neobundle
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh;
