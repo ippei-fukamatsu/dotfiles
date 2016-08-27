@@ -3,6 +3,8 @@ cd ~/.dotfiles;
 git submodule update --init;
 
 cd ~;
+rm .vimrc .gvimrc .bashrc .bash_profile .zshrc;
+
 ln -s ~/.dotfiles/_vimrc .vimrc;
 ln -s ~/.dotfiles/_gvimrc .gvimrc;
 ln -s ~/.dotfiles/_bashrc .bashrc;
