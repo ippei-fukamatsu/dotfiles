@@ -1,7 +1,3 @@
-# update submodule
-cd ~/.dotfiles;
-git submodule update --init;
-
 cd ~;
 rm .vimrc .gvimrc .bashrc .bash_profile .zshrc;
 
@@ -16,9 +12,6 @@ brew install zsh
 
 # install oh-my-zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-
-# set zsh theme to dracula
-ln -s ~/.dotfiles/dracula-zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
 
 source .bash_profile;
 source .zshrc;
