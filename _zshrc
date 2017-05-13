@@ -54,3 +54,6 @@ bindkey "^N" history-beginning-search-forward-end
 # すべてのヒストリを表示する
 function history-all { history -E 1 }
 
+# local environment
+[ -f ~/zshrc.local ] && source ~/zshrc.local
+

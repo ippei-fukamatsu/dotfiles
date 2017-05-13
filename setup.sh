@@ -1,10 +1,8 @@
 cd ~;
-rm .vimrc .gvimrc .bashrc .bash_profile .zshrc;
+rm .vimrc .gvimrc .zshrc;
 
 ln -s ~/.dotfiles/_vimrc .vimrc;
 ln -s ~/.dotfiles/_gvimrc .gvimrc;
-ln -s ~/.dotfiles/_bashrc .bashrc;
-ln -s ~/.dotfiles/_bash_profile .bash_profile;
 ln -s ~/.dotfiles/_zshrc .zshrc;
 
 # install zsh
@@ -20,6 +18,8 @@ source .zshrc;
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh;
 sh ./install.sh;
 rm -rf install.sh;
+
+source ~/.zshrc
 
 echo "done.";
 echo "open vi and exec ':NeoBundleInstall'";

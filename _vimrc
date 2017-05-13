@@ -139,7 +139,6 @@ set visualbell t_vb=
 set nocompatible
 " 一旦ファイルタイプ関連を無効化する
 filetype off
-colorscheme dracula
 """"""""""""""""""""""""""""""
 
 " grep検索の実行後にQuickFix Listを表示する
