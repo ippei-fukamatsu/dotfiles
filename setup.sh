@@ -13,7 +13,7 @@ brew install zsh
 # install oh-my-zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
-source .bash_profile;
+#source .bash_profile;
 source .zshrc;
 
 # install neobundle
