@@ -3,7 +3,9 @@ if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
     zcompile ~/.zshrc
 fi
 
+# Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
+
 source $ZSH/oh-my-zsh.sh
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
@@ -127,4 +129,7 @@ bindkey '^r' anyframe-widget-put-history
 if [ -f ~/zshrc.local ]; then
   source ~/zshrc.local
 fi
+
+# local environment
+[ -f ~/zshrc.local ] && source ~/zshrc.local
 
