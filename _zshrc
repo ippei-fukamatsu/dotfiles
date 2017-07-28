@@ -1,56 +1,130 @@
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/uu089846/.oh-my-zsh
+# init
+if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+    zcompile ~/.zshrc
+fi
 
-ZSH_THEME="blinks"
-
-#plugins=(git)
-
+export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-
-# ------------------------------
-# General Settings
-# ------------------------------
-export EDITOR=vim        # エディタをvimに設定
-export LANG=ja_JP.UTF-8  # 文字コードをUTF-8に設定
-export KCODE=u           # KCODEにUTF-8を設定
-export AUTOFEATURE=true  # autotestでfeatureを動かす
-
-bindkey -v              # キーバインドをviモードに設定
-
-export PATH="/usr/local/bin/:/usr/bin:$PATH"
-
-setopt auto_pushd        # cd時にディレクトリスタックにpushdする
-setopt prompt_subst      # プロンプト定義内で変数置換やコマンド置換を扱う
-setopt notify            # バックグラウンドジョブの状態変化を即時報告する
-
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
-### Complement ###
-autoload -U compinit; compinit # 補完機能を有効にする
-setopt auto_list               # 補完候補を一覧で表示する(d)
-setopt auto_menu               # 補完キー連打で補完候補を順に表示する(d)
-setopt list_packed             # 補完候補をできるだけ詰めて表示する
-setopt list_types              # 補完候補にファイルの種類も表示する
-bindkey "^[[Z" reverse-menu-complete  # Shift-Tabで補完候補を逆順する("\e[Z"でも動作する)
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' # 補完時に大文字小文字を区別しない
+# theme
+ZSH_THEME="blinks"
 
-### History ###
-HISTFILE=~/.zsh_history   # ヒストリを保存するファイル
-HISTSIZE=10000            # メモリに保存されるヒストリの件数
-SAVEHIST=10000            # 保存されるヒストリの件数
-setopt bang_hist          # !を使ったヒストリ展開を行う(d)
-setopt extended_history   # ヒストリに実行時間も保存する
-setopt hist_ignore_dups   # 直前と同じコマンドはヒストリに追加しない
-setopt share_history      # 他のシェルのヒストリをリアルタイムで共有する
-setopt hist_reduce_blanks # 余分なスペースを削除してヒストリに保存する
+# env
+## editor
+export EDITOR=vim
 
-# マッチしたコマンドのヒストリを表示できるようにする
-autoload history-search-end
-zle -N history-beginning-search-backward-end history-search-end
-zle -N history-beginning-search-forward-end history-search-end
-bindkey "^P" history-beginning-search-backward-end
-bindkey "^N" history-beginning-search-forward-end
+## lang
+export LANG=ja=JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
+export LC_CTYPE=ja_JP.UTF-8
 
-# すべてのヒストリを表示する
-function history-all { history -E 1 }
+## umask
+umask 022
+
+## history
+export HISTFILE=~/.zsh_history
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+export LISTMAX=50
+
+# options
+## 補完候補を一覧で表示する
+setopt auto_list
+## 補完キー連打で候補順に自動で補完する
+setopt auto_menu
+## cd 時に自動でディレクトリスタックに追加する
+setopt auto_pushd
+## コマンド履歴に実行時間も記録する
+setopt extended_history
+## 履歴中の重複行をすべて削除する
+setopt hist_ignore_all_dups
+## 直前と重複するコマンドを記録しない
+setopt hist_ignore_dups
+## コマンド中の余分なスペースは削除して履歴に記録する
+setopt hist_reduce_blanks
+## 履歴と重複するコマンドを記録しない
+setopt hist_save_no_dups
+## ^D でシェルを終了しない
+#setopt ignore_eof
+## 履歴をすぐに追加する（通常はシェル終了時）
+setopt inc_append_history
+## # 以降をコメントとして扱う
+setopt interactive_comments
+## ビープを無効にする
+setopt no_beep
+setopt no_hist_beep
+setopt no_list_beep
+## = 以降も補完する（例：--option=value）
+setopt magic_equal_subst
+## バックグラウンド処理の状態変化をすぐに通知する
+setopt notify
+## 8bit文字を有効にする
+setopt print_eight_bit
+## 終了ステータスが0以外の場合にステータスを表示する
+setopt print_exit_value
+## VCS情報の表示を有効にする
+setopt prompt_subst
+## ディレクトリスタックと重複したディレクトリをスタックに追加しない
+setopt pushd_ignore_dups
+## rm * の前に確認をとる
+setopt rm_star_wait
+## Zsh間で履歴を共有する
+setopt share_history
+## コマンド実行後は右プロンプトを消す
+setopt transient_rprompt
+# !を使ったヒストリ展開を行う
+setopt bang_hist
+# ヒストリに実行時間も保存する
+setopt extended_history
+
+# autoload
+## フック機能を有効にする
+autoload -Uz add-zsh-hook
+## コマンドのオプションや引数を補完する
+autoload -Uz compinit && compinit -u
+## URLをエスケープする
+autoload -Uz url-quote-magic
+## VCS情報の表示を有効にする
+autoload -Uz vcs_info
+
+# alias
+bindkey -e
+alias mv='nocorrect mv'
+alias cp='nocorrect cp'
+alias mkdir='nocorrect mkdir'
+#alias du="du -h"
+#alias df="df -h"
+
+# ls
+case $(uname) in
+    *BSD|Darwin)
+  if [ -x "$(which gnuls)" ]; then
+      alias ls="gnuls"
+      alias la="ls -lhAF --color=auto"
+  else
+      alias la="ls -lhAFG"
+  fi
+  ;;
+    SunOS)
+  if [ -x "`which gls`" ]; then
+      alias ls="gls"
+      alias la="ls -lhAF --color=auto"
+  else
+      alias la="ls -lhAF"
+  fi
+  ;;
+    *)
+  alias la="ls -lhAF --color=auto"
+  ;;
+esac
+
+# anyframe
+bindkey '^@' anyframe-widget-cd-ghq-repository
+bindkey '^r' anyframe-widget-put-history
+
+# local environment
+if [ -f ~/zshrc.local ]; then
+  source ~/zshrc.local
+fi
 
