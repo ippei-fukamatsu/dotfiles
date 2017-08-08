@@ -1,11 +1,10 @@
 # init
-if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
-    zcompile ~/.zshrc
-fi
+#if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+#    zcompile ~/.zshrc
+#fi
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
-
 source $ZSH/oh-my-zsh.sh
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
@@ -81,6 +80,8 @@ setopt bang_hist
 setopt extended_history
 
 # autoload
+## 補完機能を有効にする
+autoload -U compinit; compinit
 ## フック機能を有効にする
 autoload -Uz add-zsh-hook
 ## コマンドのオプションや引数を補完する
@@ -121,15 +122,8 @@ case $(uname) in
   ;;
 esac
 
-# anyframe
-bindkey '^@' anyframe-widget-cd-ghq-repository
-bindkey '^r' anyframe-widget-put-history
-
 # local environment
 if [ -f ~/zshrc.local ]; then
   source ~/zshrc.local
 fi
-
-# local environment
-[ -f ~/zshrc.local ] && source ~/zshrc.local
 
