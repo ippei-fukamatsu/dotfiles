@@ -37,6 +37,9 @@ if ! zplug check --verbose; then
   fi
 fi
 
+#保管色付け
+zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
+
 ## load zplug
 zplug load
 
@@ -54,6 +57,30 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 export LISTMAX=50
+
+## Completion configuration
+#
+#予測変換
+autoload predict-on
+predict-on
+
+autoload -U compinit
+compinit
+
+#ls色付け
+export LSCOLORS=exfxcxdxbxegedabagacad
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+
+#便利aliasたち
+alias ls="ls -G -w"
+alias gls="gls --color"
+alias j="jobs -l"
+alias la="ls -a"
+alias lf="ls -F"
+alias ll="ls -l"
+alias du="du -h"
+alias df="df -h"
+alias su="su -l"
 
 # options
 ## 補完候補を一覧で表示する
