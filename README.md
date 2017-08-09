@@ -1,11 +1,5 @@
 # dotfiles
 
 ```
-brew install
-
-brew install git
-
-git clone https://github.com/ippei-fukamatsu/dotfiles.git .dotfiles
-
-sh .dotfiles/setup.sh
+zsh -c "$(curl -s https://raw.githubusercontent.com/ippei-fukamatsu/dotfiles/master/bin/install.sh)"
 ```
