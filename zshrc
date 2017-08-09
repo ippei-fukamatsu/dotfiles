@@ -1,15 +1,41 @@
+# zplug
+## check if zplug is installed
+[[ -d ~/.zplug ]] || return
+source ~/.zplug/init.zsh
+
 # init
-#if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
-#    zcompile ~/.zshrc
-#fi
+if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+    zcompile ~/.zshrc
+fi
 
-# Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-export XDG_CONFIG_HOME="$HOME/.dotfiles"
+## manage everything
+zplug "chrissicool/zsh-256color", use:"zsh-256color.plugin.zsh"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zsh-users/zsh-history-substring-search"
+zplug "junegunn/fzf-bin", \
+  from:gh-r, \
+  as:command, \
+  rename-to:fzf, \
+  use:"*darwin*amd64*"
+zplug "mollifier/anyframe"
+zplug "plugins/brew", from:oh-my-zsh, if:"which brew"
+zplug "plugins/tmux", from:oh-my-zsh, if:"which tmux"
+zplug 'dracula/zsh', as:theme
 
-# theme
-ZSH_THEME="blinks"
+## install plugins if they are not installed
+if ! zplug check --verbose; then
+  printf "Install? [y/N]: "
+  if read -q; then
+    echo; zplug install
+  else
+    echo
+  fi
+fi
+
+## load zplug
+zplug load
 
 # env
 ## editor
@@ -28,6 +54,10 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 export LISTMAX=50
+
+## ls command colors
+export LSCOLORS=exfxcxdxbxegedabagacad
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
 
 # options
 ## 補完候補を一覧で表示する
@@ -74,14 +104,8 @@ setopt rm_star_wait
 setopt share_history
 ## コマンド実行後は右プロンプトを消す
 setopt transient_rprompt
-# !を使ったヒストリ展開を行う
-setopt bang_hist
-# ヒストリに実行時間も保存する
-setopt extended_history
 
 # autoload
-## 補完機能を有効にする
-autoload -U compinit; compinit
 ## フック機能を有効にする
 autoload -Uz add-zsh-hook
 ## コマンドのオプションや引数を補完する
@@ -91,15 +115,29 @@ autoload -Uz url-quote-magic
 ## VCS情報の表示を有効にする
 autoload -Uz vcs_info
 
+# completion
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*:messages' format '%d'
+zstyle ':completion:*:descriptions' format '%d'
+zstyle ':completion:*:options' verbose yes
+zstyle ':completion:*:values' verbose yes
+zstyle ':completion:*:options' prefix-needed yes
+zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin \
+  /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
+zstyle ':completion:*' menu select
+zstyle ':completion:*' keep-prefix
+zstyle ':completion:*' completer _oldlist _complete _match _ignored \
+  _approximate _list _history
+
 # alias
 bindkey -e
 alias mv='nocorrect mv'
 alias cp='nocorrect cp'
 alias mkdir='nocorrect mkdir'
-#alias du="du -h"
-#alias df="df -h"
+alias du="du -h"
+alias df="df -h"
 
-# ls
+## ls
 case $(uname) in
     *BSD|Darwin)
   if [ -x "$(which gnuls)" ]; then
@@ -122,8 +160,23 @@ case $(uname) in
   ;;
 esac
 
-# local environment
-if [ -f ~/zshrc.local ]; then
-  source ~/zshrc.local
+## tmux
+if which tmux &> /dev/null; then
+  alias tm ="tmux"
+  alias tml="tmux ls"
+  alias tma="tmux a -t "
 fi
 
+# plugin settings
+## fzf
+export FZF_DEFAULT_OPTS="--extended --ansi --multi"
+
+## anyframe
+#bindkey '^@' anyframe-widget-cd-ghq-repository
+#bindkey '^r' anyframe-widget-put-history
+
+## tmuxinator
+#[ -f ~/.bin/tmuxinator.zsh ] && source ~/.bin/tmuxinator.zsh
+
+# local environment
+[ -f ~/zshrc.local ] && source ~/zshrc.local
