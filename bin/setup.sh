@@ -28,5 +28,3 @@ rm -rf install.sh;
 mkdir -p $HOME/.config/nvim
 ln -s $HOME/dotfiles/vimrc $HOME/.config/nvim/init.vim
 
-source $HOME/.zshrc
-echo "done.";

@@ -11,3 +11,7 @@ fi
 
 git clone https://github.com/ippei-fukamatsu/dotfiles.git $HOME/dotfiles
 sh $HOME/dotfiles/bin/setup.sh
+
+source $HOME/.zshrc
+echo "done.";
+
