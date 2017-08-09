@@ -40,6 +40,21 @@ fi
 ## load zplug
 zplug load
 
+# env
+## editor
+export EDITOR=vim
+
+## lang
+export LANG=ja=JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
+export LC_CTYPE=ja_JP.UTF-8
+
+## history
+export HISTFILE=~/.zsh_history
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+export LISTMAX=50
+
 # options
 ## 補完候補を一覧で表示する
 setopt auto_list
