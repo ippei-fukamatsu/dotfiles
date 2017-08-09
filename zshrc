@@ -8,6 +8,9 @@ if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
     zcompile ~/.zshrc
 fi
 
+## umask
+umask 022
+
 ## manage everything
 zplug "chrissicool/zsh-256color", use:"zsh-256color.plugin.zsh"
 zplug "zsh-users/zsh-autosuggestions"
@@ -21,8 +24,8 @@ zplug "junegunn/fzf-bin", \
   use:"*darwin*amd64*"
 zplug "mollifier/anyframe"
 zplug "plugins/brew", from:oh-my-zsh, if:"which brew"
-zplug "plugins/tmux", from:oh-my-zsh, if:"which tmux"
-zplug 'dracula/zsh', as:theme
+#zplug "plugins/tmux", from:oh-my-zsh, if:"which tmux"
+zplug "yous/lime"
 
 ## install plugins if they are not installed
 if ! zplug check --verbose; then
@@ -36,28 +39,6 @@ fi
 
 ## load zplug
 zplug load
-
-# env
-## editor
-export EDITOR=vim
-
-## lang
-export LANG=ja=JP.UTF-8
-export LC_ALL=ja_JP.UTF-8
-export LC_CTYPE=ja_JP.UTF-8
-
-## umask
-umask 022
-
-## history
-export HISTFILE=~/.zsh_history
-export HISTSIZE=1000000
-export SAVEHIST=1000000
-export LISTMAX=50
-
-## ls command colors
-export LSCOLORS=exfxcxdxbxegedabagacad
-export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
 
 # options
 ## 補完候補を一覧で表示する
@@ -137,46 +118,14 @@ alias mkdir='nocorrect mkdir'
 alias du="du -h"
 alias df="df -h"
 
-## ls
-case $(uname) in
-    *BSD|Darwin)
-  if [ -x "$(which gnuls)" ]; then
-      alias ls="gnuls"
-      alias la="ls -lhAF --color=auto"
-  else
-      alias la="ls -lhAFG"
-  fi
-  ;;
-    SunOS)
-  if [ -x "`which gls`" ]; then
-      alias ls="gls"
-      alias la="ls -lhAF --color=auto"
-  else
-      alias la="ls -lhAF"
-  fi
-  ;;
-    *)
-  alias la="ls -lhAF --color=auto"
-  ;;
-esac
-
-## tmux
-if which tmux &> /dev/null; then
-  alias tm ="tmux"
-  alias tml="tmux ls"
-  alias tma="tmux a -t "
-fi
-
 # plugin settings
 ## fzf
 export FZF_DEFAULT_OPTS="--extended --ansi --multi"
 
-## anyframe
-#bindkey '^@' anyframe-widget-cd-ghq-repository
-#bindkey '^r' anyframe-widget-put-history
-
-## tmuxinator
-#[ -f ~/.bin/tmuxinator.zsh ] && source ~/.bin/tmuxinator.zsh
+# anyframe
+bindkey '^@' anyframe-widget-cd-ghq-repository
+bindkey '^r' anyframe-widget-put-history
 
 # local environment
 [ -f ~/zshrc.local ] && source ~/zshrc.local
+
