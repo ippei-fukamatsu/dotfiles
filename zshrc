@@ -61,8 +61,8 @@ export LISTMAX=50
 ## Completion configuration
 #
 #予測変換
-autoload predict-on
-predict-on
+#autoload predict-on
+#predict-on
 
 autoload -U compinit
 compinit
