@@ -23,6 +23,8 @@ brew install neovim
 # install python3
 brew install python3
 
+pip3 install neovim
+
 # setting for neovim
 mkdir -p $HOME/.config/nvim
 ln -s $HOME/dotfiles/vimrc $HOME/.config/nvim/init.vim
