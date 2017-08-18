@@ -1,0 +1,108 @@
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+on_cmd = 'Denite'
+hook_source = 'source ~/.vim/dein/plugins/denite.vim'
+hook_add = '''
+  nnoremap <silent> <Leader>dr
+    \ :<C-u>Denite -buffer-name=register
+    \ register neoyank<CR>
+  xnoremap <silent> <Leader>gr
+    \ :<C-u>Denite -default-action=replace -buffer-name=register
+    \ register neoyank<CR>
+
+  nnoremap <silent> <Leader>d<Space>
+    \ :<C-u>Denite file_rec:~/.vim<CR>
+  nnoremap <silent> <Leader>s :<C-u>Denite file_point
+    \ `finddir('.git', ';') != '' ? 'file_rec/git' : 'file_rec'`<CR>
+
+  nnoremap <silent> <Leader>dn :<C-u>Denite dein<CR>
+  nnoremap <silent> <Leader>dg :<C-u>Denite ghq<CR>
+  nnoremap <silent> ;g :<C-u>Denite -buffer-name=grep
+    \ -no-empty -mode=normal grep<CR>
+  nnoremap <silent> ;n :<C-u>Denite -buffer-name=grep
+    \ -resume -mode=normal<CR>
+  nnoremap <silent> <Leader>ft :<C-u>Denite filetype<CR>
+  nnoremap <silent> <C-t> :<C-u>Denite
+    \ -select=`tabpagenr()-1` -mode=normal deol<CR>
+  nnoremap <silent> <C-k> :<C-u>Denite -mode=normal change jump<CR>
+'''
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+on_source = 'denite.nvim'
+
+[[plugins]]
+repo = 'Jagua/vim-denite-ghq'
+on_source = 'denite.nvim'
+
+[[plugins]]
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]
+repo = 'osyo-manga/vim-precious'
+depends = 'context_filetype.vim'
+on_if = 1
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+depends = 'context_filetype.vim'
+if = "has('lua')"
+on_i = 1
+hook_source = '''
+  let g:neocomplete#enable_at_startup = 1
+  source ~/.vim/dein/plugins/neocomplete.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/vimfiler.vim'
+depends = 'unite.vim'
+on_map = {n = '<Plug>'}
+on_if = "isdirectory(bufname('%'))"
+hook_add = 'nnoremap <silent> <Leader>ff :<C-u>VimFiler -invisible<CR>'
+
+[[plugins]]
+repo = 'rhysd/vim-operator-surround'
+depends = 'vim-operator-user'
+on_map = {n = '<Plug>'}
+hook_add = '''
+  nmap <silent>sa <Plug>(operator-surround-append)a
+  nmap <silent>sd <Plug>(operator-surround-delete)a
+  nmap <silent>sr <Plug>(operator-surround-replace)a
+  nmap <silent>sc <Plug>(operator-surround-replace)a
+'''
+
+[[plugins]]
+repo = 'rhysd/accelerated-jk'
+on_map = {n = '<Plug>'}
+hook_add = '''
+  nmap <silent>j <Plug>(accelerated_jk_gj)
+  nmap <silent>k <Plug>(accelerated_jk_gk)
+'''
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+on_i = 1
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = 'go'
+
+[[plugins]]
+repo = 'artur-shaik/vim-javacomplete2'
+on_ft = 'java'
+hook_source = '''
+  autocmd MyAutoCmd FileType java setlocal omnifunc=javacomplete#Complete
+'''
+
+[[plugins]]
+repo = 'tweekmonster/impsort.vim'
+on_cmd = 'ImpSort'
+hook_source = 'let g:impsort_highlight_imported = 0'
+
+[[plugins]]
+repo = 'osyo-manga/vim-monster'
+on_i = 1
+depends = ['vimproc.vim']
+hook_source = '''
+  let g:monster#completion#rcodetools#backend = "async_rct_complete"
+'''

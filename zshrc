@@ -160,6 +160,9 @@ alias mkdir='nocorrect mkdir'
 alias du="du -h"
 alias df="df -h"
 
+alias vi='nvim'
+alias vim='nvim'
+
 # plugin settings
 ## fzf
 export FZF_DEFAULT_OPTS="--extended --ansi --multi"
