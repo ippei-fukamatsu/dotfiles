@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=( vimrc zshrc viminfo bashrc gitconfig zcompdump )
+files=( vimrc gvimrc zshrc viminfo bashrc gitconfig zcompdump )
 directories=( vim config zplug )
 
 for file in ${files[@]}

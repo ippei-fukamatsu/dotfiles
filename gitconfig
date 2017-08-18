@@ -2,7 +2,7 @@
   name = Ippei Fukamatsu
   email = ippei.fukamatsu@yume-lab.co.jp
 [core]
-  editor = vim
+  editor = nvim
 [color]
   ui = auto
 [color "branch"]
