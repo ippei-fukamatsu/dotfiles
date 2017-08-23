@@ -1,2 +1,5 @@
 " Color Scheme
-colorscheme dracula
+colorscheme molokai
+
+" MacVim用
+set imdisable
