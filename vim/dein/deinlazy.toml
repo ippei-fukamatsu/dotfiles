@@ -60,7 +60,7 @@ on_map = {n = '<Plug>'}
 on_if = "isdirectory(bufname('%'))"
 hook_add = '''
   nnoremap <silent> <Leader>ff :<C-u>VimFiler -invisible<CR>
-  noremap <C-T> :VimFilerExplorer<CR>
+  noremap <silent> <Leader>ex :VimFilerExplorer<CR>
   autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)
 '''
 
