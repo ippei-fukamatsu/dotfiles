@@ -156,6 +156,8 @@ set virtualedit=block
 set autoread
 set formatoptions=lmoq
 set mouse-=a
+set modifiable
+set write
 " }}}
 
 " View {{{2
