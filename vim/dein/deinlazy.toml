@@ -58,7 +58,11 @@ repo = 'Shougo/vimfiler.vim'
 depends = 'unite.vim'
 on_map = {n = '<Plug>'}
 on_if = "isdirectory(bufname('%'))"
-hook_add = 'nnoremap <silent> <Leader>ff :<C-u>VimFiler -invisible<CR>'
+hook_add = '''
+  nnoremap <silent> <Leader>ff :<C-u>VimFiler -invisible<CR>
+  noremap <silent> <Leader>ex :VimFilerExplorer<CR>
+  autocmd FileType vimfiler nmap <buffer> <CR> <Plug>(vimfiler_expand_or_edit)
+'''
 
 [[plugins]]
 repo = 'rhysd/vim-operator-surround'
