@@ -1,2 +1,4 @@
 " Color Scheme
-colorscheme dracula
+colorscheme molokai
+set t_Co=256
+set imdisable
