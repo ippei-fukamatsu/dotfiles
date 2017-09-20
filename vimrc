@@ -228,9 +228,11 @@ endif
 " normal mode {{{2
 noremap <Space>h ^
 noremap <Space>l $
+" window
 nnoremap <C-w>v :vnew<CR>
 nnoremap <C-w>s :new<CR>
 nnoremap <C-w>t :tabnew<CR>
+
 nnoremap <silent> <C-n> gt
 nnoremap <silent> <C-p> gT
 nnoremap <silent> <C-l> :<C-u>redraw!<CR>
@@ -239,8 +241,10 @@ nnoremap <silent> <Space>O :<C-u>for i in range(1, v:count1) \| call append(line
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " insert mode {{{2
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
+inoremap <C-a> <C-o>^
+inoremap <C-e> <C-o>$
 "}}}
 
 "}}}
