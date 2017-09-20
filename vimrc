@@ -247,5 +247,14 @@ inoremap <C-a> <C-o>^
 inoremap <C-e> <C-o>$
 "}}}
 
+" command mode {{{
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
+cnoremap <C-i> <Home>
+cnoremap <C-e> <END>
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+"}}}
+
 "}}}
 
