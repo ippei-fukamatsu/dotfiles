@@ -84,6 +84,15 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'Shougo/vimshell.vim'
+on_map = {n = '<Plug>'}
+on_if = "!has('nvim')"
+hook_add = '''
+  nnoremap <silent> <Leader>sh :VimShell<CR>
+  nnoremap <silent> <Leader>sc :VimShellClose<CR>
+'''
+
+[[plugins]]
 repo = 'cohama/lexima.vim'
 on_i = 1
 
