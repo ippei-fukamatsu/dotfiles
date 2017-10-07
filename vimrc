@@ -224,6 +224,7 @@ endif
 
 " -----------------------------------------------------------------------
 " Keymappings {{{1
+nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " normal mode {{{2
 noremap <Space>h ^
@@ -232,13 +233,6 @@ noremap <Space>l $
 nnoremap <C-w>v :vnew<CR>
 nnoremap <C-w>s :new<CR>
 nnoremap <C-w>t :tabnew<CR>
-
-nnoremap <silent> <C-n> gt
-nnoremap <silent> <C-p> gT
-nnoremap <silent> <C-l> :<C-u>redraw!<CR>
-nnoremap <silent> <Space>o :<C-u>for i in range(1, v:count1) \| call append(line('.'),   '') \| endfor \| silent! call repeat#set("<Space>o", v:count1)<CR>j
-nnoremap <silent> <Space>O :<C-u>for i in range(1, v:count1) \| call append(line('.')-1,   '') \| endfor \| silent! call repeat#set("<Space>o", v:count1)<CR>k
-nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " insert mode {{{2
 inoremap <C-b> <Left>
@@ -250,10 +244,8 @@ inoremap <C-e> <C-o>$
 " command mode {{{
 cnoremap <C-b> <Left>
 cnoremap <C-f> <Right>
-cnoremap <C-i> <Home>
+cnoremap <C-a> <Home>
 cnoremap <C-e> <END>
-cnoremap <C-p> <Up>
-cnoremap <C-n> <Down>
 "}}}
 
 "}}}
