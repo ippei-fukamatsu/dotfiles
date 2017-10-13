@@ -37,9 +37,6 @@ if ! zplug check --verbose; then
   fi
 fi
 
-#保管色付け
-zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
-
 ## load zplug
 zplug load
 
@@ -68,8 +65,10 @@ autoload -U compinit
 compinit
 
 #ls色付け
-export LSCOLORS=exfxcxdxbxegedabagacad
-export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+export LSCOLORS=gxfxxxxxcxxxxxxxxxgxgx
+export LS_COLORS='di=01;36:ln=01;35:ex=01;32'
+#保管色付け
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 #便利aliasたち
 alias ls="ls -G -w"
