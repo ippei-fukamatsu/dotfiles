@@ -12,19 +12,11 @@ hook_add = '''
 
   nnoremap <silent> <Leader>d<Space>
     \ :<C-u>Denite file_rec:~/.vim<CR>
-  nnoremap <silent> <Leader>s :<C-u>Denite file_point
-    \ `finddir('.git', ';') != '' ? 'file_rec/git' : 'file_rec'`<CR>
 
-  nnoremap <silent> <Leader>dn :<C-u>Denite dein<CR>
-  nnoremap <silent> <Leader>dg :<C-u>Denite ghq<CR>
   nnoremap <silent> ;g :<C-u>Denite -buffer-name=grep
     \ -no-empty -mode=normal grep<CR>
   nnoremap <silent> ;n :<C-u>Denite -buffer-name=grep
     \ -resume -mode=normal<CR>
-  nnoremap <silent> <Leader>ft :<C-u>Denite filetype<CR>
-  nnoremap <silent> <C-t> :<C-u>Denite
-    \ -select=`tabpagenr()-1` -mode=normal deol<CR>
-  nnoremap <silent> <C-k> :<C-u>Denite -mode=normal change jump<CR>
 '''
 
 [[plugins]]
@@ -89,7 +81,7 @@ on_map = {n = '<Plug>'}
 on_if = "!has('nvim')"
 hook_add = '''
   nnoremap <silent> <Leader>sh :VimShell<CR>
-  nnoremap <silent> <Leader>sc :VimShellClose<CR>
+  nnoremap <silent> <Leader>sc :VimShellClos<CR>
 '''
 
 [[plugins]]
