@@ -11,7 +11,7 @@ hook_add = '''
     \ register neoyank<CR>
 
   nnoremap <silent> <Leader>d<Space>
-    \ :<C-u>Denite file_rec:~/.vim<CR>
+    \ :<C-u>Denite file_rec<CR>
 
   nnoremap <silent> ;g :<C-u>Denite -buffer-name=grep
     \ -no-empty -mode=normal grep<CR>

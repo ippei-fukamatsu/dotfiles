@@ -1,5 +1,8 @@
 " Initialize {{{1
 
+filetype off
+filetype plugin indent off
+
 if &compatible
   set nocompatible
 endif
@@ -8,6 +11,7 @@ set encoding=utf-8
 scriptencoding utf-8
 let g:mapleader='['
 
+filetype plugin indent on
 augroup MyAutoCmd
   autocmd!
   autocmd FileType,Syntax,BufNewFile,BufNew,BufRead *
