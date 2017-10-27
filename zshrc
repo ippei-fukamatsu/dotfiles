@@ -42,7 +42,7 @@ zplug load
 
 # env
 ## editor
-export EDITOR=vim
+export EDITOR=nvim
 
 ## lang
 export LANG=ja=JP.UTF-8
