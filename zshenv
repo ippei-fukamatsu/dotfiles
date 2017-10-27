@@ -2,7 +2,7 @@
 export PATH=${HOME}/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH}
 
 # editor
-export EDITOR=vim
+export EDITOR=nvim
 
 # rbenv
 export PATH=${HOME}/.rbenv/bin:${PATH}
