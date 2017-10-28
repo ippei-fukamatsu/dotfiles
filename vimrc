@@ -239,6 +239,8 @@ nnoremap <C-w>s :new<CR>
 nnoremap <C-w>t :tabnew<CR>
 
 " insert mode {{{2
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 inoremap <C-a> <C-o>^
