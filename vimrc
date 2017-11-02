@@ -3,15 +3,14 @@
 filetype off
 filetype plugin indent off
 
-if &compatible
-  set nocompatible
-endif
-
+set nocompatible
 set encoding=utf-8
 scriptencoding utf-8
+
 let g:mapleader='['
 
 filetype plugin indent on
+
 augroup MyAutoCmd
   autocmd!
   autocmd FileType,Syntax,BufNewFile,BufNew,BufRead *
@@ -70,9 +69,6 @@ if dein#load_state(s:dein_dir)
 
   call dein#load_toml('~/.vim/dein/dein.toml', {'lazy': 0})
   call dein#load_toml('~/.vim/dein/deinlazy.toml', {'lazy' : 1})
-  if has('nvim')
-    call dein#load_toml('~/.vim/dein/deineo.toml', {})
-  endif
 
   if dein#tap('deoplete.nvim') && has('nvim')
     call dein#disable('neocomplete.vim')
@@ -133,13 +129,12 @@ set nobackup
 set writebackup
 set noswapfile
 
-" make directory if parent directory doesn't exist
+" 存在しないディレクトリ指定しちゃった時に新たに作成するかを尋ねる
 autocmd MyAutoCmd BufNewFile * call PromptAndMakeDirectory()
 function! PromptAndMakeDirectory()
   let dir = expand("<afile>:p:h")
   if !isdirectory(dir) && confirm("Create a new directory [".dir."]?", "&Yes\n&No") == 1
     call mkdir(dir, "p")
-    " Reset fullpath of the buffer in order to avoid problems when using autochdir.
     file %
   endif
 endfunction
@@ -169,7 +164,6 @@ set list
 set listchars=tab:▸\ ,trail:-,extends:»,precedes:«,nbsp:%
 set laststatus=2
 set cmdheight=2
-set noshowcmd
 set nostartofline
 set scrolloff=5
 set showmatch
@@ -177,9 +171,8 @@ set matchtime=2
 set number
 set splitright
 set splitbelow
-set t_ut=
 set ttyfast
-set colorcolumn=79
+set colorcolumn=80
 let g:did_install_default_menus = 1
 
 " break
@@ -194,7 +187,6 @@ else
 endif
 
 " disable bell
-set t_vb=
 set novisualbell
 
 " completion

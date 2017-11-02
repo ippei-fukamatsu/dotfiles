@@ -27,6 +27,9 @@ hook_add = '''
 
 [[plugins]]
 repo = 'cohama/agit.vim'
+hook_add = '''
+  nnoremap <Leader>ag :Agit<Enter>
+'''
 
 [[plugins]]
 repo = 'jimsei/winresizer'

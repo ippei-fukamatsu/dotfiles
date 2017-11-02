@@ -29,17 +29,7 @@ endfunction
 
 inoremap <expr> '  pumvisible() ? deoplete#close_popup() : "'"
 
-" call deoplete#custom#set('_', 'matchers', ['matcher_head'])
 call deoplete#custom#set('ghc', 'sorters', ['sorter_word'])
-" call deoplete#custom#set('buffer', 'mark', '')
-" call deoplete#custom#set('_', 'matchers', ['matcher_full_fuzzy'])
-" call deoplete#custom#set('_', 'disabled_syntaxes', ['Comment', 'String'])
-" call deoplete#custom#set('buffer', 'mark', '*')
-
-" Use auto delimiter
-" call deoplete#custom#set('_', 'converters',
-"       \ ['converter_auto_paren',
-"       \  'converter_auto_delimiter', 'remove_overlap'])
 call deoplete#custom#set('_', 'converters', [
   \ 'converter_remove_paren',
   \ 'converter_remove_overlap',
@@ -54,26 +44,17 @@ call deoplete#custom#set('clang', 'max_pattern_length', -1)
 
 let g:deoplete#keyword_patterns = {}
 let g:deoplete#keyword_patterns._ = '[a-zA-Z_]\k*\(?'
-" let g:deoplete#keyword_patterns.tex = '\\?[a-zA-Z_]\w*'
 let g:deoplete#keyword_patterns.tex = '[^\w|\s][a-zA-Z_]\w*'
 
 let g:deoplete#omni#input_patterns = {}
 let g:deoplete#omni#input_patterns.python = ''
 let g:deoplete#omni#functions = {}
 
-" inoremap <silent><expr> <C-t> deoplete#manual_complete('file')
-
-" let g:deoplete#enable_refresh_always = 1
 let g:deoplete#enable_camel_case = 1
-" let g:deoplete#auto_complete_delay = 50
-" let g:deoplete#auto_complete_start_length = 3
 
 let g:deoplete#skip_chars = ['(', ')']
 
-" let g:deoplete#enable_profile = 1
-" call deoplete#enable_logging('DEBUG', 'deoplete.log')
-" call deoplete#custom#set('clang', 'debug_enabled', 1)
-
+let g:monster#completion#rcodetools#backend = "async_rct_complete"
 let g:deoplete#sources#omni#input_patterns = {
   \ "ruby" : '[^. *\t]\.\w*\|\h\w*::',
   \}
