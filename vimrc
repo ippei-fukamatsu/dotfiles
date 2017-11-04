@@ -1,22 +1,23 @@
-" Initialize {{{1
+" Initialize
 
 filetype off
 filetype plugin indent off
 
-set nocompatible
+if !&compatible
+  set nocompatible
+endif
+
+" reset augroup
+augroup MyAutoCmd
+  autocmd!
+augroup END
+
 set encoding=utf-8
 scriptencoding utf-8
 
 let g:mapleader='['
 
-filetype plugin indent on
-
-augroup MyAutoCmd
-  autocmd!
-  autocmd FileType,Syntax,BufNewFile,BufNew,BufRead *
-    \ call s:on_filetype()
-  autocmd CursorHold *.toml syntax sync minlines=300
-augroup END
+autocmd FileType,Syntax,BufNewFile,BufNew,BufRead * call s:on_filetype()
 
 if has('vim_starting') && has('reltime')
   let g:startuptime = reltime()
@@ -26,34 +27,41 @@ if has('vim_starting') && has('reltime')
   augroup END
 endif
 
-let $DOTVIM=expand('~/.vim')
 let $CACHE = expand('~/.cache')
 if !isdirectory(expand($CACHE))
   call mkdir(expand($CACHE), 'p')
 endif
 
 " -----------------------------------------------------------------------
-" Functions {{{1
+" Functions
 
-function! s:on_filetype() abort "{{{
+function! s:on_filetype() abort
   if execute('filetype') =~# 'OFF'
     " Lazy loading
     silent! filetype plugin indent on
     syntax enable
     filetype detect
   endif
-endfunction "}}}
-" }}}
+endfunction
+
+autocmd MyAutoCmd BufNewFile * call ConfirmMakeDirectory()
+function! ConfirmMakeDirectory()
+  let dir = expand("<afile>:p:h")
+  if !isdirectory(dir) && confirm("Create a new directory [".dir."]?", "&Yes\n&No") == 1
+    call mkdir(dir, "p")
+    file %
+  endif
+endfunction
 
 
 " -----------------------------------------------------------------------
-" Plugins {{{1
+" Plugins
 
 " Load dein.
 let s:dein_dir = expand('$CACHE/dein')
   \. '/repos/github.com/Shougo/dein.vim'
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 if &runtimepath !~# '/dein.vim'
-  let s:dein_repo_dir = s:dein_dir
   if !isdirectory(s:dein_repo_dir)
       execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
   endif
@@ -79,22 +87,19 @@ if dein#load_state(s:dein_dir)
 endif
 
 if dein#check_install()
-  " Installation check.
   call dein#install()
 endif
-" }}}
-
 
 " -----------------------------------------------------------------------
-" Options {{{1
+" Options
 
-" Search {{{2
+" Search
 set ignorecase
 set smartcase
 set incsearch
 set hlsearch
 set wrapscan
-nnoremap <ESC><ESC> :nohlsearch<CR>
+nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " tab
 set smarttab
@@ -110,15 +115,6 @@ set shiftround
 set modelines=0
 set nomodeline
 
-" clipboard
-if (!has('nvim') || $DISPLAY != '') && has('clipboard')
-  if has('unnamedplus')
-    set clipboard& clipboard+=unnamedplus
-  else
-    set clipboard& clipboard+=unnamed
-  endif
-endif
-
 " keymapping timeout
 set timeout
 set timeoutlen=3000
@@ -128,16 +124,6 @@ set ttimeoutlen=100
 set nobackup
 set writebackup
 set noswapfile
-
-" 存在しないディレクトリ指定しちゃった時に新たに作成するかを尋ねる
-autocmd MyAutoCmd BufNewFile * call PromptAndMakeDirectory()
-function! PromptAndMakeDirectory()
-  let dir = expand("<afile>:p:h")
-  if !isdirectory(dir) && confirm("Create a new directory [".dir."]?", "&Yes\n&No") == 1
-    call mkdir(dir, "p")
-    file %
-  endif
-endfunction
 
 " autofmt
 set formatexpr=autofmt#japanese#formatexpr()
@@ -157,9 +143,8 @@ set formatoptions=lmoq
 set mouse-=a
 set modifiable
 set write
-" }}}
 
-" View {{{2
+" View
 set list
 set listchars=tab:▸\ ,trail:-,extends:»,precedes:«,nbsp:%
 set laststatus=2
@@ -199,9 +184,8 @@ set helpheight=12
 " colorscheme
 let g:rehash256 = 1
 colorscheme molokai
-" }}}
 
-" Encoding {{{2
+" Encoding
 set fileencoding=utf-8
 let &fileencodings = join([
   \ 'ucs-bom', 'utf-8', 'iso-2022-jp-3', 'euc-jp', 'sjis', 'cp932'])
@@ -215,36 +199,29 @@ if has('multi_byte_ime')
   set iminsert=0 imsearch=0
 endif
 
-"}}}
-
-
 " -----------------------------------------------------------------------
-" Keymappings {{{1
-nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
+" Keymappings
 
-" normal mode {{{2
+" normal mode
 noremap <Space>h ^
 noremap <Space>l $
+"
 " window
 nnoremap <C-w>v :vnew<CR>
 nnoremap <C-w>s :new<CR>
 nnoremap <C-w>t :tabnew<CR>
 
-" insert mode {{{2
+" insert mode
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 inoremap <C-a> <C-o>^
 inoremap <C-e> <C-o>$
-"}}}
 
-" command mode {{{
+" command mode
 cnoremap <C-b> <Left>
 cnoremap <C-f> <Right>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <END>
-"}}}
-
-"}}}
 

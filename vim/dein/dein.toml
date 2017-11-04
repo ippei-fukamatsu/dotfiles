@@ -5,7 +5,17 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
-repo = 'kana/vim-operator-user'
+repo = 'Shougo/deoplete.nvim'
+depends = 'context_filetype.vim'
+build = ':UpdateRemotePlugins'
+if = "has('nvim')"
+hook_source = '''
+    let g:deoplete#enable_at_startup = 1
+    source ~/.vim/dein/plugins/deoplete.vim
+'''
+
+[[plugins]]
+repo = 'neomake/neomake'
 
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
@@ -53,9 +63,6 @@ repo = 'joedicastro/vim-molokai256'
 
 [[plugins]]
 repo = 'tomasr/molokai'
-
-[[plugins]]
-repo = 'tlhr/anderson.vim'
 
 [[plugins]]
 repo = 'hail2u/vim-css3-syntax'
