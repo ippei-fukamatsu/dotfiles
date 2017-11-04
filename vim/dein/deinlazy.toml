@@ -13,10 +13,7 @@ hook_add = '''
   nnoremap <silent> <Leader>d<Space>
     \ :<C-u>Denite file_rec<CR>
 
-  nnoremap <silent> ;g :<C-u>Denite -buffer-name=grep
-    \ -no-empty -mode=normal grep<CR>
-  nnoremap <silent> ;n :<C-u>Denite -buffer-name=grep
-    \ -resume -mode=normal<CR>
+  nnoremap <silent> ;g :<C-u>DeniteCursorWord grep<CR>
 '''
 
 [[plugins]]
