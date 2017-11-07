@@ -2,20 +2,22 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'Shougo/neosnippet-snippets'
-
-[[plugins]]
 repo = 'Shougo/deoplete.nvim'
 depends = 'context_filetype.vim'
-build = ':UpdateRemotePlugins'
 if = "has('nvim')"
-hook_source = '''
-    let g:deoplete#enable_at_startup = 1
-    source ~/.vim/dein/plugins/deoplete.vim
-'''
+build = ':UpdateRemotePlugins'
 
 [[plugins]]
 repo = 'neomake/neomake'
+
+[[plugins]]
+repo = 'Shougo/neocomplcache'
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
@@ -27,6 +29,23 @@ hook_add = 'source ~/.vim/dein/plugins/quickrun.vim'
 
 [[plugins]]
 repo = 'ntpeters/vim-better-whitespace'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_source = '''
+  let g:indent_guides_enable_on_vim_startup = 1
+  let g:indent_guides_auto_colors = 0
+  let g:indent_guides_start_level = 2
+  let g:indent_guides_guide_size = 1
+  let g:indent_guides_space_guides = 1
+  let g:indent_guides_exclude_filetypes = ['help', 'vimfiler', 'unite']
+'''
+hook_add = '''
+  augroup MyAutoCmd
+    autocmd Colorscheme * :hi IndentGuidesOdd ctermbg=black
+    autocmd Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
+  augroup END
+'''
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
@@ -41,6 +60,7 @@ hook_add = '''
   nnoremap <Leader>ag :Agit<Enter>
 '''
 
+# Resize window
 [[plugins]]
 repo = 'jimsei/winresizer'
 hook_source = '''
@@ -48,6 +68,7 @@ hook_source = '''
   let g:winresizer_start_key = '<C-E>'
 '''
 
+# themes
 [[plugins]]
 repo = 'vim-airline/vim-airline'
 
@@ -56,13 +77,29 @@ repo = 'vim-airline/vim-airline-themes'
 depends = 'vim-airline'
 
 [[plugins]]
-repo = 'slim-template/vim-slim'
+repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'joedicastro/vim-molokai256'
 
 [[plugins]]
-repo = 'tomasr/molokai'
+repo = 'kana/vim-textobj-user'
+
+[[plugins]]
+repo = 'kana/vim-operator-user'
+
+[[plugins]]
+repo = 'rhysd/vim-operator-surround'
+depends = 'vim-operator-user'
+hook_add = '''
+    map <silent>sa <Plug>(operator-surround-append)
+    map <silent>sd <Plug>(operator-surround-delete)
+    map <silent>sr <Plug>(operator-surround-replace)
+'''
+
+# TODO: move Lazy loading
+[[plugins]]
+repo = 'slim-template/vim-slim'
 
 [[plugins]]
 repo = 'hail2u/vim-css3-syntax'
@@ -83,23 +120,13 @@ repo = 'cespare/vim-toml'
 repo = 'elzr/vim-json'
 
 [[plugins]]
-repo = 'kana/vim-textobj-user'
-
-[[plugins]]
 repo = 'hynek/vim-python-pep8-indent'
-
-# Operators
-[[plugins]]
-repo = 'kana/vim-operator-user'
 
 [[plugins]]
 repo = 'rcmdnk/vim-markdown'
 
 [[plugins]]
 repo = 'vim-ruby/vim-ruby'
-
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'jelera/vim-javascript-syntax'

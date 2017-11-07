@@ -11,6 +11,7 @@ endif
 augroup MyAutoCmd
   autocmd!
 augroup END
+autocmd! FileType
 
 set encoding=utf-8
 scriptencoding utf-8
@@ -18,6 +19,7 @@ scriptencoding utf-8
 let g:mapleader='['
 
 autocmd FileType,Syntax,BufNewFile,BufNew,BufRead * call s:on_filetype()
+autocmd BufWritePre * :%s/\s\+$//ge
 
 if has('vim_starting') && has('reltime')
   let g:startuptime = reltime()
@@ -37,8 +39,7 @@ endif
 
 function! s:on_filetype() abort
   if execute('filetype') =~# 'OFF'
-    " Lazy loading
-    silent! filetype plugin indent on
+    filetype plugin indent on
     syntax enable
     filetype detect
   endif

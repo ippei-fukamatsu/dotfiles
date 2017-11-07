@@ -16,12 +16,26 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'Shougo/deol.nvim'
-on_cmd = 'Deol'
+repo = 'Shougo/unite.vim'
 on_source = 'denite.nvim'
 
 [[plugins]]
-repo = 'Shougo/unite.vim'
+repo = 'Shougo/neosnippet'
+hook_source = '''
+  imap <C-m> <Plug>(neosnippet_expand_or_jump)
+  smap <C-m> <Plug>(neosnippet_expand_or_jump)
+  xmap <C-m> <Plug>(neosnippet_expand_target)
+  if has('conceal')
+    set conceallevel=2 concealcursor=niv
+  endif
+'''
+on_i  = 1
+on_ft = ['snippet']
+depends = ['neosnippet-snippets']
+
+[[plugins]]
+repo = 'Shougo/deol.nvim'
+on_cmd = 'Deol'
 on_source = 'denite.nvim'
 
 [[plugins]]
@@ -72,23 +86,25 @@ on_i = 1
 
 [[plugins]]
 repo = 'zchee/deoplete-jedi'
-on_i = 1
 on_ft = 'python'
 
 [[plugins]]
 repo = 'zchee/deoplete-go'
-on_i = 1
 on_ft = 'go'
 
 [[plugins]]
 repo = 'fatih/vim-go'
-on_i = 1
 on_ft = 'go'
 
 [[plugins]]
 repo = 'fishbullet/deoplete-ruby'
-on_i = 1
+depends = 'deoplete.nvim'
 on_ft = 'ruby'
+hook_source = '''
+  let g:deoplete#sources#omni#input_patterns = {
+  \   "ruby" : '[^. *\t]\.\w*\|\h\w*::',
+  \}
+'''
 
 [[plugins]]
 repo = 'artur-shaik/vim-javacomplete2'

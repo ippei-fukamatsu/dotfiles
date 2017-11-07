@@ -38,7 +38,6 @@ call deoplete#custom#set('_', 'converters', [
   \ 'converter_auto_delimiter',
   \ ])
 
-" call deoplete#custom#set('buffer', 'min_pattern_length', 9999)
 call deoplete#custom#set('clang', 'input_pattern', '\.\w*|\.->\w*|\w+::\w*')
 call deoplete#custom#set('clang', 'max_pattern_length', -1)
 
@@ -48,13 +47,9 @@ let g:deoplete#keyword_patterns.tex = '[^\w|\s][a-zA-Z_]\w*'
 
 let g:deoplete#omni#input_patterns = {}
 let g:deoplete#omni#input_patterns.python = ''
-let g:deoplete#omni#functions = {}
 
 let g:deoplete#enable_camel_case = 1
 
 let g:deoplete#skip_chars = ['(', ')']
 
 let g:monster#completion#rcodetools#backend = "async_rct_complete"
-let g:deoplete#sources#omni#input_patterns = {
-  \ "ruby" : '[^. *\t]\.\w*\|\h\w*::',
-  \}
