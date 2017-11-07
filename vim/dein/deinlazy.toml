@@ -10,8 +10,7 @@ hook_add = '''
     \ :<C-u>Denite -default-action=replace -buffer-name=register
     \ register neoyank<CR>
 
-  nnoremap <silent> <Leader>d<Space>
-    \ :<C-u>Denite file_rec<CR>
+  nnoremap <silent> <C-f> :<C-u>Denite file_rec<CR>
 
   nnoremap <silent> ;g :<C-u>DeniteCursorWord grep<CR>
 '''
