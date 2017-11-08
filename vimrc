@@ -39,7 +39,8 @@ endif
 
 function! s:on_filetype() abort
   if execute('filetype') =~# 'OFF'
-    filetype plugin indent on
+    " Lazy loading
+    silent! filetype plugin indent on
     syntax enable
     filetype detect
   endif
@@ -226,3 +227,4 @@ cnoremap <C-f> <Right>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <END>
 
+filetype plugin indent on

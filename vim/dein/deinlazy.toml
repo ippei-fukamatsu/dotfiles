@@ -20,6 +20,20 @@ repo = 'Shougo/unite.vim'
 on_source = 'denite.nvim'
 
 [[plugins]]
+repo = 'Shougo/deoplete.nvim'
+depends = 'context_filetype.vim'
+build = ':UpdateRemotePlugins'
+if = "has('nvim')"
+hook_source = '''
+  let g:deoplete#enable_at_startup = 1
+  let g:deoplete#auto_complete_start_length = 1
+  inoremap <expr><tab> pumvisible() ? "\<C-n>" :
+        \ neosnippet#expandable_or_jumpable() ?
+        \    "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
+'''
+on_event = 'InsertEnter'
+
+[[plugins]]
 repo = 'Shougo/neosnippet'
 hook_source = '''
   imap <C-m> <Plug>(neosnippet_expand_or_jump)
@@ -48,7 +62,12 @@ repo = 'Shougo/context_filetype.vim'
 [[plugins]]
 repo = 'osyo-manga/vim-precious'
 depends = 'context_filetype.vim'
-on_if = 1
+on_ft = ['vim', 'html', 'toml']
+hook_add = '''
+ let g:precious_enable_switch_CursorMoved = { '*': 0, 'help': 1 }
+ autocmd MyAutoCmd InsertEnter * :PreciousSwitch
+ autocmd MyAutoCmd InsertLeave * :PreciousReset"}
+'''
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
