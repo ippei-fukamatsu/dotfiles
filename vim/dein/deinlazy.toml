@@ -99,16 +99,20 @@ hook_add = '''
   nnoremap <silent> <Leader>sc :VimShellClos<CR>
 '''
 
+# Auto close parentheses
 [[plugins]]
 repo = 'cohama/lexima.vim'
 on_i = 1
 
+# completion
 [[plugins]]
 repo = 'zchee/deoplete-jedi'
+depends = 'deoplete.nvim'
 on_ft = 'python'
 
 [[plugins]]
 repo = 'zchee/deoplete-go'
+depends = 'deoplete.nvim'
 on_ft = 'go'
 
 [[plugins]]
@@ -135,12 +139,6 @@ hook_source = '''
 [[plugins]]
 repo = 'tweekmonster/impsort.vim'
 on_cmd = 'ImpSort'
+on_ft = 'python'
 hook_source = 'let g:impsort_highlight_imported = 0'
 
-[[plugins]]
-repo = 'osyo-manga/vim-monster'
-on_i = 1
-depends = ['vimproc.vim']
-hook_source = '''
-  let g:monster#completion#rcodetools#backend = "async_rct_complete"
-'''
