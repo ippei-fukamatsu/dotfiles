@@ -10,7 +10,7 @@ export PATH=${HOME}/.rbenv/bin:${PATH}
 
 # go
 export GOPATH=${HOME}/go
-export PATH="${GOPATH}/bin:${PATH}"
+export PATH=${PATH}:${GOPATH}/bin
 
 # nodebrew
 export PATH=${HOME}/.nodebrew/current/bin:${PATH}
