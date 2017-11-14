@@ -16,13 +16,15 @@ cd $HOME/dotfiles
 # install zplug
 curl -sL https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
-# install neovim
-brew install neovim
-
 # install python3
 brew install python3
 
+# install neovim
+brew install neovim
 pip3 install neovim
+
+# install ripgrep
+brew install ripgrep
 
 # setting for neovim
 mkdir -p $HOME/.config/nvim

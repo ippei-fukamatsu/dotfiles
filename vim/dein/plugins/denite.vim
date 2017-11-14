@@ -4,6 +4,16 @@ call denite#custom#map('insert', '<C-k>', '<denite:move_to_previous_line>', 'nor
 call denite#custom#map('insert', "'", '<denite:move_to_next_line>', 'noremap')
 call denite#custom#map('normal', 'r', '<denite:do_action:quickfix>', 'noremap')
 
+if executable('rg')
+  " Ripgrep command on grep source
+  call denite#custom#var('grep', 'command', ['rg'])
+  call denite#custom#var('grep', 'default_opts', ['--vimgrep', '--no-heading'])
+  call denite#custom#var('grep', 'recursive_opts', [])
+  call denite#custom#var('grep', 'pattern_opt', ['--regexp'])
+  call denite#custom#var('grep', 'separator', ['--'])
+  call denite#custom#var('grep', 'final_opts', [])
+endif
+
 call denite#custom#alias('source', 'file_rec/git', 'file_rec')
 
 call denite#custom#option('default', 'prompt', '>')
