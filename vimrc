@@ -16,7 +16,7 @@ autocmd! FileType
 set encoding=utf-8
 scriptencoding utf-8
 
-let g:mapleader='['
+let g:mapleader="\<Space>"
 
 autocmd FileType,Syntax,BufNewFile,BufNew,BufRead * call s:on_filetype()
 autocmd BufWritePre * :%s/\s\+$//ge
