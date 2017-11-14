@@ -3,16 +3,8 @@ repo = 'Shougo/denite.nvim'
 on_cmd = 'Denite'
 hook_source = 'source ~/.vim/dein/plugins/denite.vim'
 hook_add = '''
-  nnoremap <silent> <Leader>dr
-    \ :<C-u>Denite -buffer-name=register
-    \ register neoyank<CR>
-  xnoremap <silent> <Leader>gr
-    \ :<C-u>Denite -default-action=replace -buffer-name=register
-    \ register neoyank<CR>
-
-  nnoremap <silent> <C-f> :<C-u>Denite file_rec<CR>
-
-  nnoremap <silent> ;g :<C-u>DeniteCursorWord grep<CR>
+  nnoremap <silent> <C-f> :Denite file_rec<CR>
+  nnoremap <silent> ;g :DeniteCursorWord grep<CR>
 '''
 
 [[plugins]]
