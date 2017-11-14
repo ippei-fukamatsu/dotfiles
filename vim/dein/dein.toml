@@ -97,9 +97,17 @@ repo = 'kana/vim-operator-user'
 repo = 'rhysd/vim-operator-surround'
 depends = 'vim-operator-user'
 hook_add = '''
-    map <silent>sa <Plug>(operator-surround-append)
-    map <silent>sd <Plug>(operator-surround-delete)
-    map <silent>sr <Plug>(operator-surround-replace)
+  map <silent>sa <Plug>(operator-surround-append)
+  map <silent>sd <Plug>(operator-surround-delete)
+  map <silent>sr <Plug>(operator-surround-replace)
+'''
+
+[[plugins]]
+repo = 'tyru/caw.vim'
+hook_add = '''
+  " 行頭にコメントをトグル
+  nmap <Leader>c <Plug>(caw:zeropos:toggle)
+  vmap <Leader>c <Plug>(caw:zeropos:toggle)
 '''
 
 # TODO: move Lazy loading
