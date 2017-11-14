@@ -3,8 +3,8 @@ repo = 'Shougo/denite.nvim'
 on_cmd = 'Denite'
 hook_source = 'source ~/.vim/dein/plugins/denite.vim'
 hook_add = '''
-  nnoremap <silent> <C-f> :Denite file_rec<CR>
-  nnoremap <silent> ;g :DeniteCursorWord grep<CR>
+  nnoremap <silent> <C-f> :<C-u>Denite file_rec -highlight-mode-insert=PmenuSel<CR>
+  nnoremap <silent> <Leader>g :<C-u>DeniteCursorWord grep -highlight-mode-insert=PmenuSel<CR>
 '''
 
 [[plugins]]
