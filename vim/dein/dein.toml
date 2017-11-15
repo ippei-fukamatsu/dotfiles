@@ -75,6 +75,7 @@ hook_add = '''
   nnoremap <silent> <C-t><C-h> :bprevious<Enter>
   nnoremap <silent> <C-t><C-a> :bfirst<Enter>
   nnoremap <silent> <C-t><C-e> :blast<Enter>
+  nnoremap <silent> <C-t><C-d> :bd<Enter>
 '''
 
 [[plugins]]
