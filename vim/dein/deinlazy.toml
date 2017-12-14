@@ -4,9 +4,9 @@ on_cmd = 'Denite'
 build = ':UpdateRemotePlugins'
 hook_source = 'source ~/.vim/dein/plugins/denite.vim'
 hook_add = '''
-  nnoremap <silent> <Leader>fg :<C-u>Denite file_rec -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
-  nnoremap <silent> <Leader>g :<C-u>Denite grep -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
-  nnoremap <silent> <Leader>gw :<C-u>DeniteCursorWord grep -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
+  nnoremap <silent> <C-u><C-f> :<C-u>DeniteBufferDir file_rec -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
+  nnoremap <silent> <C-u><C-g> :<C-u>DeniteBufferDir grep -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
+  nnoremap <silent> <C-u><C-w> :<C-u>DeniteCursorWord grep -no-empty -auto-preview -highlight-mode-insert=PmenuSel<CR>
 '''
 
 [[plugins]]
