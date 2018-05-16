@@ -3,18 +3,14 @@
 filetype off
 filetype plugin indent off
 
-if !&compatible
-  set nocompatible
-endif
+set nocompatible
+set encoding=utf-8
+scriptencoding utf-8
 
 " reset augroup
 augroup MyAutoCmd
   autocmd!
 augroup END
-autocmd! FileType
-
-set encoding=utf-8
-scriptencoding utf-8
 
 let g:mapleader="\<Space>"
 
@@ -28,6 +24,9 @@ if has('vim_starting') && has('reltime')
       \ | echomsg 'startuptime: ' . reltimestr(g:startuptime)
   augroup END
 endif
+
+" 変更されたら自動で読み込むように
+autocmd MyAutoCmd BufWritePost $MYVIMRC nested source $MYVIMRC
 
 let $CACHE = expand('~/.cache')
 if !isdirectory(expand($CACHE))
@@ -54,7 +53,6 @@ function! ConfirmMakeDirectory()
     file %
   endif
 endfunction
-
 
 " -----------------------------------------------------------------------
 " Plugins
@@ -203,7 +201,7 @@ endif
 " normal mode
 noremap <Space>h ^
 noremap <Space>l $
-"
+
 " window
 nnoremap <C-w>v :vnew<CR>
 nnoremap <C-w>s :new<CR>
@@ -223,4 +221,8 @@ cnoremap <C-f> <Right>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <END>
 
+nnoremap <silent> <Leader>ss :<C-u>source $MYVIMRC \| if has('gui_running') \| source $MYGVIMRC \| endif <CR>
+
 filetype plugin indent on
+syntax on
+
