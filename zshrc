@@ -162,6 +162,8 @@ alias df="df -h"
 alias vi='nvim'
 alias vim='nvim'
 
+alias dc='docker-compose'
+
 # plugin settings
 ## fzf
 export FZF_DEFAULT_OPTS="--extended --ansi --multi"
