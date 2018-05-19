@@ -4,11 +4,14 @@ on_cmd = 'Denite'
 build = ':UpdateRemotePlugins'
 hook_source = 'source ~/.vim/dein/plugins/denite.vim'
 hook_add = '''
-  nnoremap <silent> <Leader>gf :<C-u>Denite file_point file_rec -highlight-mode-insert=PmenuSel<CR>
-  nnoremap <silent> <Leader>gg :<C-u>Denite grep -no-empty -mode=normal -highlight-mode-insert=PmenuSel<CR>
-  nnoremap <silent> <Leader>gw :<C-u>DeniteCursorWord grep -no-empty -mode=normal -highlight-mode-insert=PmenuSel<CR>
+  nnoremap <silent> <Leader>gf :<C-u>Denite file_point file_old
+        \ `finddir('.git', ';') != '' ? 'file_rec/git' : 'file_rec'`
+        \ file file:new<CR>
+  nnoremap <silent> <Leader>gg :<C-u>Denite -buffer-name=search -no-empty -mode=normal grep<CR>
+  nnoremap <silent> <Leader>gw :<C-u>DeniteCursorWord -buffer-name=search -auto-highlight -mode=normal line<CR>
   nnoremap <silent> <Leader>ft :<C-u>Denite filetype<CR>
   nnoremap <silent> <Leader>lc :<C-u>Denite -mode=normal change jump<CR>
+  nnoremap <silent> <Leader>/ :<C-u>Denite -buffer-name=search -auto-highlight line<CR>
 '''
 
 [[plugins]]

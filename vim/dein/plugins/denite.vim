@@ -6,6 +6,7 @@ call denite#custom#map('normal', 'r', '<denite:do_action:quickfix>', 'noremap')
 
 if executable('rg')
   " Ripgrep command on grep source
+  call denite#custom#var('file_rec', 'command', ['rg', '--files', '--glob', '!.git'])
   call denite#custom#var('grep', 'command', ['rg'])
   call denite#custom#var('grep', 'default_opts', ['--vimgrep', '--no-heading'])
   call denite#custom#var('grep', 'recursive_opts', [])
@@ -28,6 +29,7 @@ let s:menus.vim.file_candidates = [
   \ ]
 call denite#custom#var('menu', 'menus', s:menus)
 
+call denite#custom#source('file_rec', 'matchers', ['matcher_fuzzy', 'matcher_ignore_globs'])
 call denite#custom#filter('matcher_ignore_globs', 'ignore_globs',
   \ [ '.git/', 'images/', '*.min.*', 'img/', 'fonts/',
-  \ 'log/', 'tmp/', 'coverage/', 'node_modules/'])
+  \ 'log/', 'tmp/', 'coverage/', 'node_modules/', '.idea/'])
