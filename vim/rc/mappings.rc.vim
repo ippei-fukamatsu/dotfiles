@@ -52,24 +52,23 @@ cnoremap <C-p> <Up>
 cnoremap <C-y> <C-r>*
 cnoremap <C-g> <C-c>
 
-" [Space]: Other useful commands
-" Smart space mapping.
-nmap <Space> [Space]
-nnoremap [Space] <Nop>
+" ,: Other useful commands
+nmap , [Comma]
+nnoremap [Comma] <Nop>
 
 " Set autoread.
-nnoremap [Space]ar
+nnoremap [Comma]ar
       \ :<C-u>call vimrc#toggle_option('autoread')<CR>
 " Set spell check.
-nnoremap [Space]p
+nnoremap [Comma]p
       \ :<C-u>call vimrc#toggle_option('spell')<CR>
       \: set spelllang=en_us<CR>
       \: set spelllang+=cjk<CR>
-nnoremap [Space]w
+nnoremap [Comma]w
       \ :<C-u>call vimrc#toggle_option('wrap')<CR>
 
 " Easily edit .vimrc
-nnoremap <silent> [Space]ev  :<C-u>edit $MYVIMRC<CR>
+nnoremap <silent> [Comma]ev  :<C-u>edit $MYVIMRC<CR>
 
 " Useful save mappings.
 nnoremap <silent> <Leader><Leader> :<C-u>update<CR>

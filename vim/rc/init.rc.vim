@@ -18,7 +18,7 @@ endif
 language message C
 
 " Use ',' instead of '\'.
-let g:mapleader = ','
+let g:mapleader = '\<Space>'
 
 " Use <LocalLeader> in filetype plugin.
 let g:maplocalleader = 'm'
@@ -26,7 +26,7 @@ let g:maplocalleader = 'm'
 " Release keymappings for plug-in.
 nnoremap ; <Nop>
 nnoremap m <Nop>
-nnoremap , <Nop>
+nnoremap <Space> <Nop>
 
 let $CACHE = expand('~/.cache')
 
