@@ -1,2 +1,1 @@
-" vimrcの実行
-execute 'source' fnamemodify(expand('<sfile>'), ':h').'/../vimrc'
+execute 'source' fnamemodify(expand('<sfile>'), ':h').'/rc/vimrc'

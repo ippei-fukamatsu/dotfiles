@@ -27,6 +27,6 @@ pip3 install neovim
 brew install ripgrep
 
 # setting for neovim
-mkdir -p $HOME/.config/nvim
-ln -s $HOME/dotfiles/vimrc $HOME/.config/nvim/init.vim
+mkdir -p $HOME/.config/
+ln -s $HOME/dotfiles/vim/ $HOME/.config/nvim
 
