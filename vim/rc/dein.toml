@@ -96,10 +96,12 @@ repo = 'kana/vim-operator-user'
 [[plugins]]
 repo = 'rhysd/vim-operator-surround'
 depends = 'vim-operator-user'
+on_map = {n = '<Plug>'}
 hook_add = '''
-  map <silent>sa <Plug>(operator-surround-append)
-  map <silent>sd <Plug>(operator-surround-delete)
-  map <silent>sr <Plug>(operator-surround-replace)
+  nmap <silent>sa <Plug>(operator-surround-append)a
+  nmap <silent>sd <Plug>(operator-surround-delete)a
+  nmap <silent>sr <Plug>(operator-surround-replace)a
+  nmap <silent>sc <Plug>(operator-surround-replace)a
 '''
 
 [[plugins]]
@@ -109,4 +111,31 @@ hook_add = '''
   nmap <Leader>c <Plug>(caw:zeropos:toggle)
   vmap <Leader>c <Plug>(caw:zeropos:toggle)
 '''
+
+[[plugins]]
+repo = 'thinca/vim-ft-diff_fold'
+
+[[plugins]]
+repo = 'thinca/vim-ft-help_fold'
+
+[[plugins]]
+repo = 'vim-jp/autofmt'
+
+[[plugins]]
+repo = 'thinca/vim-themis'
+
+[[plugins]]
+repo = 'ujihisa/neco-look'
+
+[[plugins]]
+repo = 'chemzqm/denite-git'
+
+[[plugins]]
+repo = 'Shirk/vim-gas'
+
+[[plugins]]
+repo = 'chrisbra/vim-zsh'
+
+[[plugins]]
+repo = 'Shougo/deoppet.nvim'
 
