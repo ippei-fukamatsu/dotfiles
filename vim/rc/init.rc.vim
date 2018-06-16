@@ -18,7 +18,7 @@ endif
 language message C
 
 " Use ',' instead of '\'.
-let g:mapleader = '\<Space>'
+let g:mapleader = "\<Space>"
 
 " Use <LocalLeader> in filetype plugin.
 let g:maplocalleader = 'm'
