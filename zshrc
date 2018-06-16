@@ -153,6 +153,8 @@ zstyle ':completion:*' completer _oldlist _complete _match _ignored \
 
 # alias
 bindkey -e
+bindkey "^u" backward-kill-line
+
 alias mv='nocorrect mv'
 alias cp='nocorrect cp'
 alias mkdir='nocorrect mkdir'
@@ -161,8 +163,6 @@ alias df="df -h"
 
 alias vi='nvim'
 alias vim='nvim'
-
-alias dc='docker-compose'
 
 # plugin settings
 ## fzf
