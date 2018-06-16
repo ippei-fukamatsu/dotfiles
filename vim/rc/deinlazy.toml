@@ -2,7 +2,7 @@
 repo = 'Shougo/denite.nvim'
 on_cmd = 'Denite'
 build = ':UpdateRemotePlugins'
-hook_source = 'source ~/.vim/dein/plugins/denite.vim'
+hook_source = 'source ~/.vim/rc/plugins/denite.vim'
 hook_add = '''
   nnoremap <silent> <Leader>gf :<C-u>Denite file_point file_old
         \ `finddir('.git', ';') != '' ? 'file_rec/git' : 'file_rec'`
@@ -85,7 +85,7 @@ if = "has('lua')"
 on_i = 1
 hook_source = '''
   let g:neocomplete#enable_at_startup = 1
-  source ~/.vim/dein/plugins/neocomplete.vim
+  source ~/.vim/rc/plugins/neocomplete.vim
 '''
 
 [[plugins]]

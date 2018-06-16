@@ -19,7 +19,7 @@ build = 'make'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
-hook_add = 'source ~/.vim/dein/plugins/quickrun.vim'
+hook_add = 'source ~/.vim/rc/plugins/quickrun.vim'
 
 [[plugins]]
 repo = 'ntpeters/vim-better-whitespace'
