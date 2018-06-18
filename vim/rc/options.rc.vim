@@ -277,6 +277,9 @@ function! WidthPart(str, width) abort
   return ret
 endfunction
 
+" 保存したらスペースのみの行削除
+autocmd BufWritePre * :%s/\s\+$//ge
+
 " For conceal.
 set conceallevel=2 concealcursor=niv
 
