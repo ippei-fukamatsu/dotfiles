@@ -1,0 +1,954 @@
+
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+"$VIM/sysinit.vim" を取込めません
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.config/nvim)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+"/Users/ippei-fukamatsu/.config/nvim/init.vim" を取込中
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/vimrc"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/init.rc.vim"
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/init.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/dein.rc.vim"
+Searching for "autoload/dein.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 20: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein.vim
+continuing in /Users/ippei-fukamatsu/dotfiles/vim/rc/dein.rc.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 10: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/state_nvim.vim"
+Searching for "ftoff.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/ftoff.vim"
+Searching for "/etc/xdg/nvim/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/ftoff.vim"
+Searching for "/usr/local/share/nvim/site/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/ftoff.vim"
+Searching for "/usr/share/nvim/site/ftoff.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/ftoff.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 10: sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/ftoff.vim"
+Error detected while processing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/ftoff.vim:
+line   11:
+E216: No such group or event: filetypedetect *
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/ftoff.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/state_nvim.vim
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after/ftoff.vim"
+Searching for "/usr/share/nvim/site/after/ftoff.vim"
+Searching for "/usr/local/share/nvim/site/after/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/after/ftoff.vim"
+Searching for "/etc/xdg/nvim/after/ftoff.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/after/ftoff.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.vim/rc/plugins)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 54: sourcing "/Users/ippei-fukamatsu/.vim/rc/plugins/quickrun.rc.vim"
+finished sourcing /Users/ippei-fukamatsu/.vim/rc/plugins/quickrun.rc.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/state_nvim.vim
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/state_nvim.vim
+continuing in function dein#load_state
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/dein/autoload.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/autoload.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 0: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/autoload.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/autoload.vim
+continuing in FuncUndefined Auto commands for "*"
+Searching for "autoload/dein/util.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/util.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/util.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/dein/util.vim
+continuing in function dein#check_install
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/dein.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/encoding.rc.vim"
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/encoding.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/options.rc.vim"
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/options.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/mappings.rc.vim"
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/mappings.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/neovim.rc.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/syntax)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 6: sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/syntax/nosyntax.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/syntax/nosyntax.vim
+continuing in /Users/ippei-fukamatsu/dotfiles/vim/rc/neovim.rc.vim
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/neovim.rc.vim
+continuing in function <SNR>2_source_rc
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/dotfiles/vim/rc)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/dotfiles/vim/rc/unix.rc.vim"
+Searching for "colors/molokai.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/colors/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/colors/molokai.vim"
+Searching for "/etc/xdg/nvim/colors/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/colors/molokai.vim"
+Searching for "/usr/local/share/nvim/site/colors/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/colors/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/colors/molokai.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/colors)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 74: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/colors/molokai.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/colors/molokai.vim
+continuing in /Users/ippei-fukamatsu/dotfiles/vim/rc/unix.rc.vim
+Executing ColorScheme Auto commands for "*"
+autocommand :hi IndentGuidesOdd ctermbg=black
+
+autocommand :hi IndentGuidesEven ctermbg=darkgrey
+
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/unix.rc.vim
+continuing in function <SNR>2_source_rc
+finished sourcing /Users/ippei-fukamatsu/dotfiles/vim/rc/vimrc
+continuing in /Users/ippei-fukamatsu/dotfiles/vim/init.vim
+finished sourcing /Users/ippei-fukamatsu/.config/nvim/init.vim
+Searching for "plugin/**/*.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/plugin/**/*.vim"
+Searching for "/etc/xdg/nvim/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/plugin/**/*.vim"
+Searching for "/usr/local/share/nvim/site/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/**/*.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/agit.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/agit.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline-themes.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline-themes.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline.vim"
+Searching for "autoload/airline.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline.vim"
+Searching for "/etc/xdg/nvim/autoload/airline.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 70: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline.vim
+Searching for "autoload/airline/init.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/init.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/init.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/init.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/init.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/init.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/init.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/init.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 155: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/init.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/init.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline.vim
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/parts.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/parts.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/parts.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/parts.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/parts.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/parts.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/parts.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/parts.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 111: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/parts.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/parts.vim
+continuing in function airline#init#bootstrap
+No matching autocommands
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/airline.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/better-whitespace.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/better-whitespace.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/caw.vim"
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/operator/user.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/operator/user.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/operator/user.vim"
+Searching for "/etc/xdg/nvim/autoload/operator/user.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/operator/user.vim"
+Searching for "/usr/local/share/nvim/site/autoload/operator/user.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/operator/user.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/operator/user.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/operator)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/operator/user.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/operator/user.vim
+continuing in function 2[4]..3
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/caw.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/deoppet.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/deoppet.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/fugitive.vim"
+Searching for "autoload/fugitive.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/fugitive.vim"
+Searching for "/etc/xdg/nvim/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/fugitive.vim"
+Searching for "/usr/local/share/nvim/site/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/fugitive.vim"
+Searching for "/usr/share/nvim/site/autoload/fugitive.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after/autoload/fugitive.vim"
+Searching for "/usr/share/nvim/site/after/autoload/fugitive.vim"
+Searching for "/usr/local/share/nvim/site/after/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/after/autoload/fugitive.vim"
+Searching for "/etc/xdg/nvim/after/autoload/fugitive.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/after/autoload/fugitive.vim"
+not found in 'runtimepath': "autoload/fugitive.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/fugitive.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/indent_guides.vim"
+Searching for "autoload/indent_guides.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/indent_guides.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/indent_guides.vim"
+Searching for "/etc/xdg/nvim/autoload/indent_guides.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/indent_guides.vim"
+Searching for "/usr/local/share/nvim/site/autoload/indent_guides.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/indent_guides.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/indent_guides.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 13: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/indent_guides.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/indent_guides.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/indent_guides.vim
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/indent_guides.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/buffer_complete.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/buffer_complete.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/dictionary_complete.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/dictionary_complete.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/include_complete.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/include_complete.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/syntax_complete.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/syntax_complete.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/tags_complete.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache/tags_complete.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neocomplcache.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neomake.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neomake.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neosnippet.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/neosnippet.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/operator)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/operator/surround.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/operator/surround.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/quickrun.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/quickrun.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/winresizer.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/plugin/winresizer.vim
+Searching for "/usr/share/nvim/site/plugin/**/*.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/**/*.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/gui_shim.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/gui_shim.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/gzip.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/health.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/health.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/man.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/man.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/matchit.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/matchit.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/matchparen.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/netrwPlugin.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/rplugin.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.local/share/nvim)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 3: sourcing "/Users/ippei-fukamatsu/.local/share/nvim/rplugin.vim"
+Searching for "autoload/remote/host.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/remote/host.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/remote/host.vim"
+Searching for "/etc/xdg/nvim/autoload/remote/host.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/remote/host.vim"
+Searching for "/usr/local/share/nvim/site/autoload/remote/host.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/remote/host.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/remote/host.vim"
+Searching for "/usr/share/nvim/site/autoload/remote/host.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/host.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 6: sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/host.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/host.vim
+continuing in /Users/ippei-fukamatsu/.local/share/nvim/rplugin.vim
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/remote/define.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/remote/define.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/remote/define.vim"
+Searching for "/etc/xdg/nvim/autoload/remote/define.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/remote/define.vim"
+Searching for "/usr/local/share/nvim/site/autoload/remote/define.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/remote/define.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/remote/define.vim"
+Searching for "/usr/share/nvim/site/autoload/remote/define.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/define.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 34: sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/define.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/remote/define.vim
+continuing in function remote#host#RegisterPlugin
+finished sourcing /Users/ippei-fukamatsu/.local/share/nvim/rplugin.vim
+continuing in function <SNR>49_LoadRemotePlugins
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/rplugin.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/rrhelper.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/rrhelper.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/shada.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/spellfile.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tarPlugin.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tohtml.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tohtml.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/tutor.vim
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+sourcing "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/plugin/zipPlugin.vim
+Searching for "pack/*/start/*" in ""
+not found in 'packpath': "pack/*/start/*"
+Searching for "pack/*/start/*" in ""
+not found in 'packpath': "pack/*/start/*"
+Searching for "plugin/**/*.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after/plugin/**/*.vim"
+Searching for "/usr/share/nvim/site/after/plugin/**/*.vim"
+Searching for "/usr/local/share/nvim/site/after/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/after/plugin/**/*.vim"
+Searching for "/etc/xdg/nvim/after/plugin/**/*.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/after/plugin/**/*.vim"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading ShaDa file "/Users/ippei-fukamatsu/.local/share/nvim/shada/main.shada" info marks oldfiles
+Executing BufWinEnter Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 6: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/quickfix.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/quickfix.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/quickfix.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/quickfix.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/quickfix.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 16: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/quickfix.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/quickfix.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/branch.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/branch.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/branch.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/branch.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/branch.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/branch.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/branch.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/branch.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 95: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/branch.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/branch.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/whitespace.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/whitespace.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/whitespace.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/whitespace.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/whitespace.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 127: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/whitespace.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/whitespace.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/neomake.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/neomake.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/neomake.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/neomake.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 132: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/neomake.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/neomake.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/wordcount.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/wordcount.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/wordcount.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/wordcount.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/wordcount.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 142: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/wordcount.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/wordcount.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 147: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/autoshow.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/autoshow.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/autoshow.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/autoshow.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/autoshow.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load[147]..airline#extensions#tabline#init[8]..<SNR>66_toggle_on
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/tabs.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/tabs.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/tabs.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 2: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/tabs.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/tabs.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load[147]..airline#extensions#tabline#init[8]..<SNR>66_toggle_on
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/buffers.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/buffers.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buffers.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 3: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buffers.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buffers.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load[147]..airline#extensions#tabline#init[8]..<SNR>66_toggle_on
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/ctrlspace.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/ctrlspace.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/ctrlspace.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/ctrlspace.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/ctrlspace.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[6]..airline#extensions#load[147]..airline#extensions#tabline#init[8]..<SNR>66_toggle_on
+Searching for "autoload/vimtex.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/vimtex.vim"
+Searching for "/etc/xdg/nvim/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/vimtex.vim"
+Searching for "/usr/local/share/nvim/site/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/vimtex.vim"
+Searching for "/usr/share/nvim/site/autoload/vimtex.vim"
+Searching for "/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after/autoload/vimtex.vim"
+Searching for "/usr/share/nvim/site/after/autoload/vimtex.vim"
+Searching for "/usr/local/share/nvim/site/after/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/after/autoload/vimtex.vim"
+Searching for "/etc/xdg/nvim/after/autoload/vimtex.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/after/autoload/vimtex.vim"
+not found in 'runtimepath': "autoload/vimtex.vim"
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/section.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/section.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/section.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/section.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/section.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/section.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/section.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/section.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 3: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/section.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/section.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[7]..airline#init#sections
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/highlighter.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/highlighter.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/highlighter.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/highlighter.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/highlighter.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/highlighter.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/highlighter.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/highlighter.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 2: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/highlighter.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/highlighter.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[7]..airline#init#sections[3]..airline#section#create_left[1]..<SNR>71_create[51]..<SNR>71_wrap_accent
+Searching for "autoload/airline/themes/molokai.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/themes/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/themes/molokai.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/themes/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/themes/molokai.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/themes/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/themes/molokai.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes/molokai.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 12: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes/molokai.vim"
+Searching for "autoload/airline/themes.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/themes.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/themes.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/themes.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/themes.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/themes.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/themes.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 13: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes.vim
+continuing in /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes/molokai.vim
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/themes/molokai.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/util.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/util.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/util.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/util.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/util.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/util.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/util.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/util.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/util.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/util.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[17]..airline#switch_theme[14]..airline#load_theme[14]..airline#extensions#load_theme
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/builder.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/builder.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/builder.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/builder.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/builder.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/builder.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/builder.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/builder.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/builder.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/builder.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[17]..airline#switch_theme[14]..airline#load_theme[15]..airline#update_statusline[18]..<SNR>21_invoke_funcrefs
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/default.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/default.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/default.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/default.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/default.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/default.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/default.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/default.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 2: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/default.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/default.vim
+continuing in function <SNR>20_on_window_changed[15]..<SNR>20_init[17]..airline#switch_theme[14]..airline#load_theme[15]..airline#update_statusline[18]..<SNR>21_invoke_funcrefs[2]..airline#util#exec_funcrefs
+No matching autocommands
+No matching autocommands
+Executing BufWinEnter Auto commands for "*"
+autocommand call <SID>SetupAutoCommands()
+
+Executing BufWinEnter Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 1 |   call s:diffoff() | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand call indent_guides#process_autocmds()
+
+Executing VimEnter Auto commands for "*"
+autocommand highlight ModeMsg guifg=bg guibg=bg | highlight Question guifg=bg guibg=bg
+
+Executing VimEnter Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand('<amatch>')==''|call fugitive#detect(getcwd())|endif
+
+chdir(.)
+/Users/ippei-fukamatsu/dotfiles
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().commit() =~# '^0\=$' | exe "command! -buffer -bar -bang -nargs=1 -complete=customlist,s:MoveComplete Gmove :execute s:Move(<bang>0,<q-args>)" | exe "command! -buffer -bar -bang Gremove :execute s:Remove('edit',<bang>0)" | exe "command! -buffer -bar -bang Gdelete :execute s:Remove('bdelete',<bang>0)" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().type('file', 'blob') | exe "command! -buffer -bar -bang -range=0 -nargs=* Gblame :execute s:Blame(<bang>0,<line1>,<line2>,<count>,[<f-args>])" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if &filetype =~# '^git\%(commit\)\=$' && &foldtext ==# 'foldtext()' |    set foldtext=fugitive#foldtext() | endif
+
+Executing CursorMoved Auto commands for "*"
+autocommand call neomake#CursorMovedDelayed()
+
+Searching for "autoload/neomake.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/neomake.vim"
+Searching for "/etc/xdg/nvim/autoload/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/neomake.vim"
+Searching for "/usr/local/share/nvim/site/autoload/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 0: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake.vim
+continuing in CursorMoved Auto commands for "*"
+Executing CursorMoved Auto commands for "*"
+autocommand call <sid>sync_active_winnr()
+
+autocommand call s:wordcount_update()
+
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/buflist.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/buflist.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buflist.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buflist.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/buflist.vim
+continuing in function airline#extensions#tabline#get[15]..airline#extensions#tabline#buffers#get[12]..<SNR>69_get_visible_buffers
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/airline/extensions/tabline/formatters/default.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/etc/xdg/nvim/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/usr/local/share/nvim/site/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/airline/extensions/tabline/formatters/default.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/formatters/default.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/formatters)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 2: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/formatters/default.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/airline/extensions/tabline/formatters/default.vim
+continuing in function airline#extensions#tabline#get[15]..airline#extensions#tabline#buffers#get[12]..<SNR>69_get_visible_buffers[8]..airline#extensions#tabline#get_buffer_name
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/neomake/statusline.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/statusline.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/neomake/statusline.vim"
+Searching for "/etc/xdg/nvim/autoload/neomake/statusline.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/neomake/statusline.vim"
+Searching for "/usr/local/share/nvim/site/autoload/neomake/statusline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/statusline.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/statusline.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 1: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/statusline.vim"
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/neomake/utils.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/utils.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/neomake/utils.vim"
+Searching for "/etc/xdg/nvim/autoload/neomake/utils.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/neomake/utils.vim"
+Searching for "/usr/local/share/nvim/site/autoload/neomake/utils.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/utils.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/utils.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 4: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/utils.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/utils.vim
+continuing in function neomake#statusline#DefineHighlights
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/statusline.vim
+continuing in function airline#extensions#neomake#get_warnings[1]..<SNR>64_get_counts
+
+Executing BufWinLeave Auto commands for "*"
+autocommand execute getwinvar(+bufwinnr(+expand('<abuf>')), 'fugitive_leave')
+
+Executing BufWinLeave Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 2 |   call s:diffoff_all(getbufvar(+expand('<abuf>'), 'git_dir')) | endif
+
+Executing BufWinLeave Auto commands for "*"
+autocommand match ExtraWhitespace ''
+
+Executing BufUnload Auto commands for "*"
+autocommand call <sid>on_window_changed()
+
+Executing BufUnload Auto commands for "*"
+autocommand call airline#extensions#tabline#buflist#invalidate()
+
+Writing ShaDa file "/Users/ippei-fukamatsu/.local/share/nvim/shada/main.shada"
+Executing VimLeave Auto commands for "*"
+autocommand call neomake#VimLeave()
+
+Executing FuncUndefined Auto commands for "*"
+autocommand call dein#autoload#_on_func(expand('<afile>'))
+
+Searching for "autoload/neomake/compat.vim" in "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/,/Users/ippei-fukamatsu/.config/nvim,/etc/xdg/nvim,/Users/ippei-fukamatsu/.local/share/nvim/site,/usr/local/share/nvim/site,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein,/usr/share/nvim/site,/usr/local/Cellar/neovim/0.2.0_1/share/nvim/runtime,/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/after,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ippei-fukamatsu/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ippei-fukamatsu/.config/nvim/after"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/compat.vim"
+Searching for "/Users/ippei-fukamatsu/.config/nvim/autoload/neomake/compat.vim"
+Searching for "/etc/xdg/nvim/autoload/neomake/compat.vim"
+Searching for "/Users/ippei-fukamatsu/.local/share/nvim/site/autoload/neomake/compat.vim"
+Searching for "/usr/local/share/nvim/site/autoload/neomake/compat.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/repos/github.com/Shougo/dein.vim/autoload/neomake/compat.vim"
+Searching for "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/compat.vim"
+chdir(/Users/ippei-fukamatsu/dotfiles)
+chdir(/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake)
+chdir(/Users/ippei-fukamatsu/dotfiles)
+line 7: sourcing "/Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/compat.vim"
+finished sourcing /Users/ippei-fukamatsu/.cache/dein/repos/github.com/Shougo/dein.vim/.cache/init.vim/.dein/autoload/neomake/compat.vim
+continuing in function neomake#VimLeave[1]..neomake#utils#DebugMessage[1]..neomake#utils#LogMessage[51]..<SNR>82_reltime_lastmsg
+                                                                                                                                Neomake [     ]: Calling VimLeave.
