@@ -127,18 +127,12 @@ xnoremap <expr> l foldclosed(line('.')) != -1 ? 'zogv0' : 'l'
 
 " Substitute.
 xnoremap s :s//g<Left><Left>
-
-" Sticky shift in English keyboard.
-" Sticky key.
-inoremap <expr> ; vimrc#sticky_func()
-cnoremap <expr> ; vimrc#sticky_func()
-snoremap <expr> ; vimrc#sticky_func()
+nnoremap ss :%s//g<Left><Left>
 
 " Easy escape.
 inoremap jj <ESC>
 cnoremap <expr> j
       \ getcmdline()[getcmdpos()-2] ==# 'j' ? "\<BS>\<C-c>" : 'j'
-inoremap j<Space>     j
 
 " a>, i], etc...
 " <angle>
@@ -175,5 +169,4 @@ if exists(':tnoremap')
   tnoremap <ESC> <C-\><C-n>
   tnoremap jj <C-\><C-n>
   tnoremap j<Space> j
-  tnoremap <expr> ; vimrc#sticky_func()
 endif
