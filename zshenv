@@ -4,9 +4,8 @@ export PATH=${HOME}/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PAT
 # editor
 export EDITOR=nvim
 
-# rbenv
-export PATH=${HOME}/.rbenv/bin:${PATH}
-[[ -d ~/.rbenv ]] && eval "$(rbenv init -)"
+# rbenv brew insatll
+eval "$(rbenv init -)"
 
 # go
 export GOPATH=${HOME}/go
