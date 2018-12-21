@@ -12,20 +12,22 @@ fi
 umask 022
 
 ## manage everything
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "chrissicool/zsh-256color", use:"zsh-256color.plugin.zsh"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
+zplug "mafredri/zsh-async"
 zplug "junegunn/fzf-bin", \
   from:gh-r, \
   as:command, \
   rename-to:fzf, \
   use:"*darwin*amd64*"
 zplug "mollifier/anyframe"
-zplug "plugins/brew", from:oh-my-zsh, if:"which brew"
-#zplug "plugins/tmux", from:oh-my-zsh, if:"which tmux"
 zplug "yous/lime"
+
+ZSH_THEME="lime"
 
 ## install plugins if they are not installed
 if ! zplug check --verbose; then
