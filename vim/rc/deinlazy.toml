@@ -291,3 +291,7 @@ hook_source = '''
 [[plugins]]
 repo = 'thinca/vim-scouter'
 
+[[plugins]]
+repo = 'tomlion/vim-solidity'
+on_ft = ['sol']
+
