@@ -13,8 +13,10 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # go
-export GOPATH=${HOME}/go
+export GOPATH="${HOME}/go"
 export PATH=${PATH}:${GOPATH}/bin
 
-# nodebrew
-export PATH=${HOME}/.nodebrew/current/bin:${PATH}
+# nodeenv
+export NDENV_PATH="$HOME/.nodenv"
+export PATH=${PATH}:${NDENV_PATH}/bin
+eval "$(nodenv init -)"
