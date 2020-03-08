@@ -2,6 +2,12 @@
 
 DOTFILES_DIR=$HOME/dotfiles
 
+# install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# homebrew-bundle
+brew bundle --file ~/Brewfile
+
 if type git; then
   : #OK
 else
