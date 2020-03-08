@@ -17,6 +17,9 @@ git clone https://github.com/ippei-fukamatsu/dotfiles.git $DOTFILES_DIR
 # homebrew-bundle
 brew bundle --file $DOTFILES_DIR/Brewfile
 
+# install zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
 sh $DOTFILES_DIR/bin/setup.sh
 
 source $HOME/.zshrc

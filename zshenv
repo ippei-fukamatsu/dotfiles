@@ -16,7 +16,7 @@ eval "$(pyenv init -)"
 export GOPATH="${HOME}/go"
 export PATH="${GOPATH}/bin:${PATH}"
 
-# ndenv
-export NDENV_PATH="${HOME}/.ndenv"
+# nodenv
+export NDENV_PATH="${HOME}/.nodenv"
 export PATH="${NDENV_PATH}/bin:${PATH}"
-eval "$(ndenv init -)"
+eval "$(nodenv init -)"
