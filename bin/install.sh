@@ -6,7 +6,7 @@ DOTFILES_DIR=$HOME/dotfiles
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # homebrew-bundle
-brew bundle --file ~/Brewfile
+brew bundle --file $DOTFILES_DIR/Brewfile
 
 if type git; then
   : #OK
@@ -15,8 +15,8 @@ else
   exit 1;
 fi
 
-git clone https://github.com/ippei-fukamatsu/dotfiles.git $HOME/dotfiles
-sh $HOME/dotfiles/bin/setup.sh
+git clone https://github.com/ippei-fukamatsu/dotfiles.git $DOTFILES_DIR
+sh $DOTFILES_DIR/bin/setup.sh
 
 source $HOME/.zshrc
 echo "done.";
