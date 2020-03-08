@@ -3,7 +3,7 @@
 DOTFILES_DIR=$HOME/dotfiles
 
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # homebrew-bundle
 brew bundle --file ~/Brewfile
