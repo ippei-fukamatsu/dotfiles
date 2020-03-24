@@ -23,5 +23,8 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 sh $DOTFILES_DIR/bin/setup.sh
 
 source $HOME/.zshrc
+
+sh $DOTFILES_DIR/bin/after_source.sh
+
 echo "done.";
 
