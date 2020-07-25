@@ -1,12 +1,12 @@
 # zplug
 ## check if zplug is installed
-[[ -d ~/.zplug ]] || return
+#[[ -d ~/.zplug ]] || return
 source ~/.zplug/init.zsh
 
 # init
-if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+#if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
     zcompile ~/.zshrc
-fi
+#fi
 
 ## umask
 umask 022
@@ -25,7 +25,8 @@ zplug "junegunn/fzf-bin", \
   rename-to:fzf, \
   use:"*darwin*amd64*"
 zplug "mollifier/anyframe"
-zplug "yous/lime"
+#zplug "yous/lime", as:theme
+zplug 'dracula/zsh', as:theme
 
 ZSH_THEME="lime"
 
@@ -40,7 +41,9 @@ if ! zplug check --verbose; then
 fi
 
 ## load zplug
-zplug load
+#zplug load
+zplug load --verbose
+
 
 # env
 ## editor
