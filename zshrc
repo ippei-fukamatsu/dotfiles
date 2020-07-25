@@ -25,10 +25,7 @@ zplug "junegunn/fzf-bin", \
   rename-to:fzf, \
   use:"*darwin*amd64*"
 zplug "mollifier/anyframe"
-#zplug "yous/lime", as:theme
-zplug 'dracula/zsh', as:theme
-
-ZSH_THEME="lime"
+zplug "yous/lime", use:lime.plugin.zsh, from:github, as:theme
 
 ## install plugins if they are not installed
 if ! zplug check --verbose; then
