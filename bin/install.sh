@@ -5,6 +5,9 @@ DOTFILES_DIR=$HOME/dotfiles
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# install cask
+brew install cask
+
 if type git; then
   : #OK
 else
