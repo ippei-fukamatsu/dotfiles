@@ -3,7 +3,7 @@
 setopt no_global_rcs
 
 # Common
-export PATH=${HOME}/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH}
+export PATH=${HOME}/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:${PATH}
 
 # editor
 export EDITOR=nvim

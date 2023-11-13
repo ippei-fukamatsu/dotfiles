@@ -19,11 +19,10 @@ zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
 zplug "mafredri/zsh-async"
-zplug "junegunn/fzf-bin", \
+zplug "junegunn/fzf", \
   from:gh-r, \
   as:command, \
-  rename-to:fzf, \
-  use:"*darwin*amd64*"
+  rename-to:fzf
 zplug "mollifier/anyframe"
 zplug "yous/lime", use:lime.plugin.zsh, from:github, as:theme
 
