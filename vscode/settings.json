@@ -1,3 +1,49 @@
 {
-    "workbench.startupEditor": "newUntitledFile"
+  // 拡張機能
+  "extensions": [
+    "bmewburn.vscode-intelephense-client", // Laravel
+    "rails", // Rails
+    "vscode-extjs-quickstart.vscode-extjs-quickstart", // Rails
+    "vetur", // React, TypeScript, Next.js
+    "dbaeumer.eslint", // React, TypeScript, Next.js
+    "esbenp.prettier-vscode", // React, TypeScript, Next.js
+    "esbenp.prettier-vscode", // React, TypeScript, Next.js
+    "rust-lang.rust", // Next.js
+    "redhat.vscode-languageserver-typescript", // TypeScript
+    "typescript-lsp.typescript-lsp", // TypeScript
+    "vscode.go", // Golang
+    "chuxiong.vscode-go-ext", // Golang
+    "vscode-vim", // Vim
+    "vscode-vim.vim-fugitive", // Vim
+    "vscode-vim.vim-airline", // Vim
+    "almirb.vscode-goto-definition", // ジャンプ
+    "almirb.vscode-goto-super-definition", // ジャンプ
+    "theme-monokai.monokai-dark-theme", // テーマ
+    "asytasia.jetbrains-keybindings", // ショートカット
+    "github.copilot" // Github Copilot
+  ],
+
+  // キーマップ
+  "keymaps.vim.normal": [
+    { "key": "<Leader>p", "command": "workbench.action.openQuickSearch", "when": "noFocus" },
+    { "key": "<Leader>t", "command": "workbench.action.focusTerminal", "when": "noFocus" },
+    { "key": "<Leader>f", "command": "workbench.action.focusQuickSearch", "when": "focus" },
+    { "key": "<Leader>ff", "command": "workbench.action.focusFindInput", "when": "focus" },
+    { "key": "<Leader>w", "command": "workbench.action.closeEditor", "when": "focus" },
+    { "key": "<Leader>q", "command": "workbench.action.quickOpen", "when": "focus" },
+    { "key": "<Leader>z", "command": "workbench.action.toggleZenMode", "when": "focus" },
+    { "key": "<Leader>o", "command": "workbench.action.openRecent", "when": "focus" },
+    { "key": "<Leader>s", "command": "workbench.action.save", "when": "focus" },
+    { "key": "<Leader>x", "command": "workbench.action.closeWindow", "when": "focus" }
+  ],
+
+  // その他の設定
+  "workbench.colorTheme": "Monokai Dark", // テーマ
+  "workbench.editor.fontSize": 14, // フォントサイズ
+  "workbench.lineNumbers.relativeLineNumbers": true, // 行番号
+  "workbench.editor.tabSize": 2, // タブ幅
+  "workbench.editor.rulers": [80], // ルーラー
+
+  // Github Copilot
+  "github.copilot.experimental.enabled": true, // Github
 }
