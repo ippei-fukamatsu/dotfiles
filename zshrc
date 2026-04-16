@@ -176,3 +176,4 @@ bindkey '^r' anyframe-widget-put-history
 # local environment
 [ -f ~/zshrc.local ] && source ~/zshrc.local
 
+export PATH="$HOME/.local/bin:$PATH"
